@@ -1,0 +1,2539 @@
+::Request::
+GET /signin HTTP/1.1
+Host: teamtreehouse.com
+Connection: close
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-US,en;q=0.8
+Cookie: __qca=P0-1067227386-1476968740216; notbot=true; intercom-visitor-semaphore-vc705b7s=1; vid=4474967132; _dc_gtm_UA-25670760-9=1; _gat_UA-25670760-9=1; mpVisited=true; intercom-session-vc705b7s=ejFlalNtSllsd05ZL3dBd0tML1h6VWUwMjlPUVJtZGpsaUM2MEFiS3ZUY1pKL1BacFlsd05GSzRtYlo4WFVyNC0tTURhQmJsYU9sdWwxUVVWcUxZR3BNQT09--e2a0221f30d2d49a49c4071eb6a209a64676afcb; IRF_1238=%7Bvisits%3A8%2Cuser%3A%7Btime%3A1476975195738%2Cref%3A%22direct%22%2Cpv%3A87%2Ccap%3A%7B%7D%2Cv%3A%7B%7D%7D%2Cvisit%3A%7Btime%3A1477120326464%2Cref%3A%22direct%22%2Cpv%3A4%2Ccap%3A%7B%7D%2Cv%3A%7B%7D%7D%2Clp%3A%22https%3A%2F%2Fteamtreehouse.com%2Fhome%22%2Cdebug%3A0%2Ca%3A1477120351709%7D; ajs_group_id=null; ajs_user_id=null; ajs_anonymous_id=%222410a583-afa6-401e-ad31-9dc50b988bb2%22; intercom-id=d793c710-05c0-484e-8683-e7e4469bd53c; IRMS_la3944=1477120353899; mp_7b38bdec31b0d42dc60b2c77d946e5ad_mixpanel=%7B%22distinct_id%22%3A%20%22157e23256342a2-0f16d9f082368c-a33316d-e1000-157e2325638359%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22visitor_id%22%3A%204474967132%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%22daily_visits%22%3A%204%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpap%22%3A%20%5B%5D%2C%22%24search_engine%22%3A%20%22google%22%7D; mp_mixpanel__c=4; sid=2410a583-afa6-401e-ad31-9dc50b988bb2; _treehouse_session=N0xFWVNhb2pYRklCVzdtVVNlM2xWK3g4blp3cVBGQm53WmZOaEVxUmJIVlBDQytUbWREOWovTm5EcXJrdjZwSEQ0VGhOY1d0ZWI3Y2xpNXA2amdqdnBHMHUxZTBLWEdjUzZCamc2RGR4WmJ4R1FpbkY1cHpMazZ3M1dQOTU0am51MExoWFZQZmhwanNISnJWWUFmNjVuY05PUTBKM3hEL1l1SkJKNHN5NzB2SmNZN0YxZkJ4R2tYaXFCMTdvUHhuU0YraFZaZkl5cU1UbjVuWkRONktlOUxSbkY1MEhKcEIvd21aY29aclNyd0J3RDFFcElWZkE4Tmc4djAwMnlpNWxiV1ZncTlPRzc2bzdLbkE2WHVXSG5GZEVUV0tTdDdockFlTklTeHZqUjNFMXE1MHdOZGxWWG5qaitzOGlDa1UtLWdoYkt6aUpuakg4Q2Rwb0RCN213WEE9PQ%3D%3D--97546a56bf35d47af7f076b7094bbf483636bcfe; _analytics_composite_identity=MjQxMGE1ODMtYWZhNi00MDFlLWFkMzEtOWRjNTBiOTg4YmIyNDQ3NDk2NzEzMg%3D%3D; _ga=GA1.2.130153331.1476968733
+
+::Response::
+HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Sat, 22 Oct 2016 07:18:40 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Vary: Accept-Encoding
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+ETag: W/"d8263bbedba67f239b1712557b280382"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: sid=2410a583-afa6-401e-ad31-9dc50b988bb2; path=/; expires=Sat, 22 Oct 2016 07:48:40 -0000; secure
+Set-Cookie: _treehouse_session=V25YL0VKelBCSkRXTCs5aU5PUUd6cm9CMURqM1ROMWs0VnFXTjVtMnRvd1JKYnZOdVE2aVcyS1laR2JtWUd4eVdsWVl0YkZGSTY0bHY0U3kzR0V0VjZVSkpFcC9xNEVUOFArUkpqbEE2cHBwWE5Sbjc1Qk9RVlp1eTB3K3VLZ1lWVEFDMGZ4aVdWQUN2T3JyOEtVemdHdTBaZ0s2dmM2ZW5oendpMEg3M3dnd0RwZ0N6VVQ3ZGJhWDFYbHhuNTlQRzh3Z3I2bU5lN3FVL3ZPL1J6ZHUzRFJhcGF4UmFlNGJ3QjZGK0J2SzJJVXE0VDlWRlFSQTBwZ0lGTTFhY1hSRjhTeWsySWVMUjJzSGJFdXMwSzJLazBWb3g5WUdCZU4wWktsdVIvQnlPMnFwclZBRkRrSXBhNFhXcDYrWmI5NnQtLXgrb1V1UkNSbUUrM1hnSEZJUXZyMVE9PQ%3D%3D--d81a4d6e440c567d677428f704f90fc577035601; path=/; secure; HttpOnly
+X-Request-Id: 6932a83d-0cd1-49ab-891f-422363866999
+X-Runtime: 0.110495
+X-Served-By: app2.prod.wdc04
+Content-Length: 67550
+
+<!DOCTYPE html>
+<html lang="en" class="application-layout person-sessions-new person-sessions-controller new-action visitor chrome webkit windows" id="layout" data-featurette="application-layout"  >
+  <head>
+    <title>Treehouse | Sign In</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d98036d1cc","applicationID":"1824378","transactionName":"cQ5eRRQNCQ8BFhZIUkASX185EQAQFw1WVkQdD1VG","queueTime":1,"applicationTime":108,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwIBVldWGwIIVlVRAAk="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="google-site-verification" content="4Ga-viQvIZUFNQXu323xpp_24RDlLooxwlpnXhinjPA" />
+    <meta name="msvalidate.01" content="F0716E70B7DD3B8C892B48891CA4B541" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="hItqE8cvcD7Khs0P6RPjmF+Not8Bxx5i9riA1XxcZZQVnIqUL97bupi7SCliUUI7KKUwG7hZQYogCcgIssMBHw==" />
+
+
+
+
+    <script>
+//<![CDATA[
+window.appData = '{\"controller_name\":\"person_sessions\",\"action_name\":\"new\",\"app_version\":\"5c77a9aa2bf211b84bf04bdad932776fd9d108f0\"}'
+//]]>
+</script>
+
+    <link rel="stylesheet" media="screen" href="https://static.teamtreehouse.com/assets/vendor-85aafb4bb1a3e2aecda6887faf893dce.css" />
+<link rel="stylesheet" media="screen" href="https://static.teamtreehouse.com/assets/application-8b26e4fb153622d177b9fe92912c5f93.css" />
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7055252/762022/css/fonts.css" />
+    
+
+    <style media="print">
+      header, footer, .graph, .nav, svg {
+        display: none
+      }
+    </style>
+
+    <link rel="shortcut icon" href="/assets/favicon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://static.teamtreehouse.com/assets/apple-touch-icon-60x60-precomposed-0c535bd2d450d0d63674d42e0211fa06.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://static.teamtreehouse.com/assets/apple-touch-icon-76x76-precomposed-70428f11bacc8386f67bd0d9a2bb6f3d.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://static.teamtreehouse.com/assets/apple-touch-icon-120x120-precomposed-f57b728bdb270f61fd44beb7977a1061.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://static.teamtreehouse.com/assets/apple-touch-icon-152x152-precomposed-83e1f23c91e515a59bf5dbf3ff578ccd.png" />
+
+    
+
+
+
+      <!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+  for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+  mixpanel.init("7b38bdec31b0d42dc60b2c77d946e5ad");</script><!-- end Mixpanel -->
+
+    
+
+    
+
+    <script type="text/javascript">
+(function() {
+  var s = document.createElement('script'),
+  e = document.getElementsByTagName('script')[0];
+  s.src = '//d3cxv97fi8q177.cloudfront.net/foundation-A187849-72ad-44c6-83bc-3d4f458b85e71.min.js';s.type = 'text/javascript';s.async = true;s.id="irfOuterTag";
+  e.parentNode.insertBefore(s, e);
+
+})();
+</script>
+<noscript><img src="//tl.r7ls.net/unscripted/187849" width="1" height="1"></noscript>
+
+  </head>
+  <body id="signin" class="windows chrome webkit ">
+    <!-- Data Layer -->
+<script>
+  dataLayer = [{"loggedIn":false,"visitorId":4474967132}];
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PZ55S7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PZ55S7');</script>
+<!-- End Google Tag Manager -->
+
+
+
+  <header class="header" role="banner" data-header>
+    <nav class="header-nav container" role="navigation" data-nav>
+      <button class="hamburger-button hamburger-button-inverse" aria-label="Navigation Menu" data-hamburger-button>
+  <span class="hamburger"></span>
+</button>
+
+      <ul class="header-nav-list ">
+        <li class="header-nav-item  header-nav-item-primary header-nav-item-logo ">
+          <h6 class="header-nav-item-logo-container">
+            <a class="header-nav-link header-nav-item-logo-link" aria_label="Treehouse Home" data-analytics-link="Treehouse Logo" data-analytics-event="application nav link" data-analytics-path="/" data-analytics-action="clicked" href="/">
+              <svg class="logo-icon header-nav-item-logo-icon" alt="Treehouse" preserveAspectRatio="xMinYMin meet" viewBox="0 0 30 32"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#logo-icon"></use></svg>
+</a>          </h6>
+</li>
+          <li class="header-nav-item  header-nav-item-sign-up ">
+              <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Free Trial" data-analytics-path="/subscribe/plans?trial=yes" data-analytics-action="clicked" href="/subscribe/plans?trial=yes">Free Trial</a>
+</li>
+          <li class="header-nav-item header-nav-item-mobile header-nav-item-sign-in header-nav-item-current">
+            <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Sign In" data-analytics-path="/signin?return_to=%2Fsignin" data-analytics-action="clicked" href="/signin?return_to=%2Fsignin">Sign In</a>
+</li>
+          <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-techdegrees ">
+            <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Techdegree" data-analytics-path="/techdegree" data-analytics-action="clicked" href="/techdegree">Techdegree</a>
+</li>
+        <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-tracks ">
+          <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Tracks" data-analytics-path="/tracks" data-analytics-action="clicked" href="/tracks">Tracks</a>
+</li>
+        <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-library ">
+          <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Library" data-analytics-path="/library" data-analytics-action="clicked" href="/library">Library</a>
+</li>
+        <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-community ">
+          <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Community" data-analytics-path="/community" data-analytics-action="clicked" href="/community">Community</a>
+</li>
+        <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-support ">
+          <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Support" data-analytics-path="/support" data-analytics-action="clicked" href="/support">Support</a>
+</li>
+      </ul>
+      
+    </nav>
+  </header>
+
+  <main class="content " role="main" data-content="">
+      <div class="container ">
+        
+        
+        
+
+        
+          
+<div class="grid-container">
+  <div class="grid-50 tablet-grid-70 centered">
+    <div class="contained">
+      <div class="grid-100">
+        <form class="new_user_session" id="new_user_session" action="https://teamtreehouse.com/person_session" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="JuoegQvAPtNPAuWPMi8AgLaML14ILbiqYCc9xy3yrPe3/f4G4zGVVx0/YKm5baEjwaS9mrGz50K2lnUa423IfA==" />
+          <div class="form-item">
+            <label for="user_session_email">Email Address</label>
+            <input autofocus="autofocus" class="form-text-input input-text input-text" type="email" name="user_session[email]" id="user_session_email" />
+</div>
+          <div class="form-item">
+            <label for="user_session_password">Password</label>
+            <input class="form-text-input input-text input-text" type="password" name="user_session[password]" id="user_session_password" />
+</div>
+
+          <p class="forgot-password"><a href="/password_resets">I forgot my password</a></p>
+          <button type="submit" class="button primary">Sign in</button>
+</form>      </div>
+    </div>
+
+    <div class="mobile-awareness-alt">
+  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 498 360" class="mobile-illustration">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#E6E6E5;}
+	.st2{fill:#F5F6F6;}
+	.st3{fill:#D9D9D8;}
+	.st4{fill:#F3F3F3;}
+	.st5{fill:#373F46;}
+	.st6{fill:#5D656C;}
+	.st7{fill:#4D5258;}
+	.st8{fill:#C35A76;}
+	.st9{fill:#E0AC26;}
+	.st10{fill:#39ADD1;}
+	.st11{fill:#327AAC;}
+	.st12{fill:#E15358;}
+	.st13{fill:#7E679E;}
+	.st14{opacity:0.8;}
+	.st15{fill:#A22D30;}
+	.st16{fill:#187290;}
+	.st17{fill:#647B91;}
+	.st18{fill:#0F5179;}
+	.st19{fill:#8B344C;}
+	.st20{fill:#B2792B;}
+	.st21{fill:#838DC5;}
+	.st22{fill:#55BCB4;}
+	.st23{fill:#544179;}
+	.st24{fill-rule:evenodd;clip-rule:evenodd;fill:#25746E;}
+	.st25{fill:#3F4950;}
+	.st26{fill:#535790;}
+	.st27{opacity:6.000000e-02;}
+	.st28{fill:#272626;}
+	.st29{fill:#434343;}
+	.st30{fill:#3E3E3E;}
+	.st31{fill:#010101;}
+	.st32{fill:#56626C;}
+	.st33{fill:#464E58;}
+	.st34{fill:#9D8AC1;}
+	.st35{fill:#51606C;}
+	.st36{fill:#6EC173;}
+	.st37{fill:#695790;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M0,69.6C0,56,11,45,24.6,45h367.5c13.6,0,24.6,11,24.6,24.6v220.8c0,13.6-11,24.6-24.6,24.6H24.6
+			C11,315,0,304,0,290.4L0,69.6z"/>
+	</g>
+	<g>
+		<circle class="st1" cx="22.3" cy="180" r="3.5"/>
+	</g>
+	<g>
+		<ellipse class="st2" cx="390.5" cy="180" rx="13.8" ry="13.9"/>
+	</g>
+	<g>
+		<path class="st3" d="M392.7,175.8c1.1,0,2.1,0.9,2.1,2.1v4.3c0,1.1-0.9,2.1-2.1,2.1h-4.3c-1.1,0-2.1-0.9-2.1-2.1v-4.3
+			c0-1.1,0.9-2.1,2.1-2.1H392.7 M392.7,173.8h-4.3c-2.2,0-4,1.8-4,4v4.3c0,2.2,1.8,4,4,4h4.3c2.2,0,4-1.8,4-4v-4.3
+			C396.6,175.6,394.9,173.8,392.7,173.8L392.7,173.8z"/>
+	</g>
+	<g>
+		<rect x="44.3" y="59.9" class="st4" width="320.1" height="240.3"/>
+	</g>
+	<g>
+		<rect x="44" y="60" class="st5" width="320" height="22"/>
+	</g>
+	<g>
+		<path class="st6" d="M350.8,73.1c0.1,0.2,0.1,0.3,0.2,0.5l-0.6,1.1c0,0,0,0.3,0.3,0.6c0.3,0.3,0.6,0.3,0.6,0.3l1.1-0.6
+			c0.2,0.1,0.3,0.1,0.5,0.2l0.4,1.3c0,0,0.2,0.2,0.7,0.2c0.4,0,0.7-0.2,0.7-0.2l0.4-1.3c0.2-0.1,0.3-0.1,0.5-0.2l1.1,0.6
+			c0,0,0.3,0,0.6-0.3c0.3-0.3,0.3-0.6,0.3-0.6l-0.6-1.1c0.1-0.2,0.1-0.3,0.2-0.5l1.3-0.4c0,0,0.2-0.2,0.2-0.7c0-0.4-0.2-0.7-0.2-0.7
+			l-1.3-0.4c-0.1-0.2-0.1-0.3-0.2-0.5l0.6-1.1c0,0,0-0.3-0.3-0.6c-0.3-0.3-0.6-0.3-0.6-0.3l-1.1,0.6c-0.2-0.1-0.3-0.1-0.5-0.2
+			l-0.4-1.3c0,0-0.2-0.2-0.7-0.2c-0.4,0-0.7,0.2-0.7,0.2L353,69c-0.2,0.1-0.3,0.1-0.5,0.2l-1.1-0.6c0,0-0.3,0-0.6,0.3
+			c-0.3,0.3-0.3,0.6-0.3,0.6l0.6,1.1c-0.1,0.2-0.1,0.3-0.2,0.5l-1.3,0.4c0,0-0.2,0.2-0.2,0.7c0,0.4,0.2,0.7,0.2,0.7L350.8,73.1z
+			 M352.4,72.1c0-0.8,0.7-1.5,1.5-1.5c0.8,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5C353.1,73.6,352.4,73,352.4,72.1z"/>
+	</g>
+	<g>
+		<g>
+			<path class="st7" d="M216.8,75h-17c-1,0-1.8-1-1.8-2s0.8-2,1.8-2h17c1,0,1.8,1,1.8,2S217.8,75,216.8,75z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st6" d="M51.8,70.3h6.3c0.4,0,0.8-0.3,0.8-0.8c0-0.4-0.3-0.8-0.8-0.8h-6.3c-0.4,0-0.8,0.3-0.8,0.8
+				C51,69.9,51.3,70.3,51.8,70.3z"/>
+		</g>
+		<g>
+			<path class="st6" d="M58.1,71.6h-6.3c-0.4,0-0.8,0.3-0.8,0.8c0,0.4,0.3,0.8,0.8,0.8h6.3c0.4,0,0.8-0.3,0.8-0.8
+				C58.9,72,58.5,71.6,58.1,71.6z"/>
+		</g>
+		<g>
+			<path class="st6" d="M58.1,74.5h-6.3c-0.4,0-0.8,0.3-0.8,0.8c0,0.4,0.3,0.8,0.8,0.8h6.3c0.4,0,0.8-0.3,0.8-0.8
+				C58.9,74.9,58.5,74.5,58.1,74.5z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st8" d="M52.5,208.7c0,0.5,0.3,0.8,0.8,0.8h94.2c0.4,0,0.7-0.4,0.7-0.8v-42.3c0-0.5-0.3-0.8-0.7-0.8H53.2
+				c-0.4,0-0.8,0.4-0.8,0.8V208.7z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st9" d="M261,132.8c0,0.5,0.3,0.8,0.8,0.8h94.2c0.4,0,0.7-0.4,0.7-0.8V90.6c0-0.5-0.3-0.8-0.7-0.8h-94.2
+				c-0.4,0-0.8,0.4-0.8,0.8V132.8z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M356.7,156.6c0,0.5-0.3,0.8-0.8,0.8h-94.2c-0.4,0-0.7-0.4-0.7-0.8v-22.3h95.7V156.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M356.7,155.3c0,0.5-0.3,0.8-0.8,0.8h-94.2c-0.4,0-0.7-0.4-0.7-0.8V133h95.7V155.3z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M148.2,232.5c0,0.5-0.3,0.8-0.8,0.8H53.2c-0.4,0-0.7-0.4-0.7-0.8v-22.3h95.7V232.5z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M148.2,231.2c0,0.5-0.3,0.8-0.8,0.8H53.2c-0.4,0-0.7-0.4-0.7-0.8v-22.3h95.7V231.2z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st10" d="M148.2,132.8c0,0.5-0.3,0.8-0.8,0.8H53.3c-0.4,0-0.7-0.4-0.7-0.8V90.6c0-0.5,0.3-0.8,0.7-0.8h94.2
+				c0.4,0,0.8,0.4,0.8,0.8V132.8z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M148.2,156.6c0,0.5-0.3,0.8-0.8,0.8H53.3c-0.4,0-0.7-0.4-0.7-0.8v-22.3h95.7V156.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M148.2,155.3c0,0.5-0.3,0.8-0.8,0.8H53.3c-0.4,0-0.7-0.4-0.7-0.8V133h95.7V155.3z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st11" d="M252.4,132.8c0,0.5-0.3,0.8-0.8,0.8h-94.2c-0.4,0-0.7-0.4-0.7-0.8V90.6c0-0.5,0.3-0.8,0.7-0.8h94.2
+				c0.4,0,0.8,0.4,0.8,0.8V132.8z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M252.4,156.6c0,0.5-0.3,0.8-0.8,0.8h-94.2c-0.4,0-0.7-0.4-0.7-0.8v-22.3h95.7V156.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M252.4,155.3c0,0.5-0.3,0.8-0.8,0.8h-94.2c-0.4,0-0.7-0.4-0.7-0.8V133h95.7V155.3z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st12" d="M252.4,208.9c0,0.5-0.3,0.8-0.8,0.8h-94.2c-0.4,0-0.7-0.4-0.7-0.8v-42.3c0-0.5,0.3-0.8,0.7-0.8h94.2
+				c0.4,0,0.8,0.4,0.8,0.8V208.9z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M252.4,232.7c0,0.5-0.3,0.8-0.8,0.8h-94.2c-0.4,0-0.7-0.4-0.7-0.8v-22.3h95.7V232.7z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M252.4,231.4c0,0.5-0.3,0.8-0.8,0.8h-94.2c-0.4,0-0.7-0.4-0.7-0.8v-22.3h95.7V231.4z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st13" d="M356.7,208.9c0,0.5-0.3,0.8-0.8,0.8h-94.2c-0.4,0-0.7-0.4-0.7-0.8v-42.3c0-0.5,0.3-0.8,0.7-0.8h94.2
+				c0.4,0,0.8,0.4,0.8,0.8V208.9z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M356.7,232.7c0,0.5-0.3,0.8-0.8,0.8h-94.2c-0.4,0-0.7-0.4-0.7-0.8v-22.3h95.7V232.7z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M356.7,231.4c0,0.5-0.3,0.8-0.8,0.8h-94.2c-0.4,0-0.7-0.4-0.7-0.8v-22.3h95.7V231.4z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M107.8,147H93c-1.2,0-2.1-0.8-2.1-2s0.9-2,2.1-2h14.8c1.2,0,2.1,0.8,2.1,2S109,147,107.8,147z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M321,147h-24.4c-1.2,0-2.2-0.8-2.2-2s1-2,2.2-2H321c1.2,0,2.2,0.8,2.2,2S322.2,147,321,147z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M209.9,147h-10.6c-1.2,0-2.1-0.8-2.1-2s0.9-2,2.1-2h10.6c1.2,0,2.1,0.8,2.1,2S211.1,147,209.9,147z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M112.5,223H88.1c-1.2,0-2.2-0.8-2.2-2s1-2,2.2-2h24.4c1.2,0,2.2,0.8,2.2,2S113.7,223,112.5,223z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M211,223h-12.7c-1.1,0-2-0.9-2-2s0.9-2,2-2H211c1.1,0,2,0.9,2,2S212.1,223,211,223z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M313.3,223h-8.9c-1.1,0-2-0.9-2-2s0.9-2,2-2h8.9c1.1,0,2,0.9,2,2S314.4,223,313.3,223z"/>
+		</g>
+	</g>
+	<g class="st14">
+		<g>
+			<path class="st15" d="M198.8,183.6L198.8,183.6C198.8,183.7,198.8,183.7,198.8,183.6L198.8,183.6L198.8,183.6L198.8,183.6
+				L198.8,183.6z"/>
+		</g>
+		<g>
+			<path class="st15" d="M221.2,181.3L221.2,181.3C221.2,181.3,221.2,181.3,221.2,181.3L221.2,181.3c-0.4-1.9-2.5-3.6-6.7-5.4
+				c-2.8-1.2-5.5-2-5.6-2l-0.3-0.1h-0.3h-7.4h-0.3l-0.3,0.1c-0.1,0-2.8,0.8-5.5,2c-4.2,1.8-6.3,3.4-6.6,5.3l0,0c0,0.1,0,0.1,0,0.2
+				c0,0.1,0,0.2,0,0.4c0,0.8,0,2.7,7.3,11.2c1.7,2,3.5,4,5,5.5c2.5,2.6,3.3,3,4.4,3c1,0,1.8-0.5,4.4-3c1.5-1.5,3.3-3.5,5-5.5
+				c7.3-8.5,7.3-10.3,7.3-11.1C221.2,181.8,221.2,181.6,221.2,181.3z M188,181.4C188,181.4,188,181.4,188,181.4
+				C188,181.4,188,181.4,188,181.4z M210.3,183.8l-5.7,15.6l-5.7-15.6l-8.6-1.9c0,0,0-0.1,0-0.1c0.2-2.4,8.7-5.1,10.3-5.6
+				c-0.2,0.7-2.1,7.1-1.7,7.5h11.5c0,0,0,0,0,0c0.3-0.7-1.7-6.8-1.9-7.5c1.6,0.5,10,3.2,10.5,5.6h0c0,0,0,0,0,0.1L210.3,183.8z"/>
+		</g>
+		<g>
+			<path class="st15" d="M221.2,181.3c0,0.1,0,0.2,0,0.3C221.2,181.5,221.2,181.4,221.2,181.3z"/>
+		</g>
+	</g>
+	<g class="st14">
+		<g>
+			<g>
+				<path class="st16" d="M94.9,122.7c-0.6,0-1.2-0.2-1.6-0.6l-9.5-8.2c-0.6-0.5-0.9-1.2-0.9-1.9c0-0.7,0.3-1.4,0.9-1.9l9.5-8.2
+					c1.1-0.9,2.6-0.8,3.5,0.3c0.9,1.1,0.8,2.6-0.3,3.5l-7.3,6.3l7.3,6.3c1.1,0.9,1.2,2.5,0.3,3.5C96.3,122.4,95.6,122.7,94.9,122.7z
+					"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st16" d="M105.8,122.7c-0.7,0-1.4-0.3-1.9-0.9c-0.9-1.1-0.8-2.6,0.3-3.5l7.3-6.3l-7.3-6.3c-1.1-0.9-1.2-2.5-0.3-3.5
+					c0.9-1.1,2.5-1.2,3.5-0.3l9.5,8.2c0.6,0.5,0.9,1.2,0.9,1.9c0,0.7-0.3,1.4-0.9,1.9l-9.5,8.2C107,122.5,106.4,122.7,105.8,122.7z"
+					/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st17" d="M261,284.6c0,0.5,0.3,0.8,0.8,0.8h94.2c0.4,0,0.7-0.4,0.7-0.8v-42.3c0-0.5-0.3-0.8-0.7-0.8h-94.2
+				c-0.4,0-0.8,0.4-0.8,0.8V284.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st18" d="M192.9,119.1c0-0.5,0.1-1.8,0.1-2.3c0-2.4-0.9-3.3-2.7-3.4c-1.3-0.1-2.1-0.9-2.1-2c0-1.1,0.8-1.9,2.1-2
+				c1.8-0.1,2.7-1,2.7-3.4c0-0.6-0.1-1.8-0.1-2.3c0-3.2,1.5-5.3,6.5-6.4c1.3-0.3,2.4,0.5,2.4,1.8c0,1-0.7,1.6-1.2,1.7
+				c-2.6,0.9-3,1.9-3,3.7c0,0.7,0.1,1.8,0.1,2.5c0,2.5-1.2,3.8-3.5,4.5c2.3,0.7,3.5,2.1,3.5,4.5c0,0.7-0.1,1.8-0.1,2.5
+				c0,1.8,0.4,2.8,3,3.7c0.5,0.2,1.2,0.7,1.2,1.7c0,1.2-1,2.1-2.4,1.8C194.4,124.3,192.9,122.3,192.9,119.1z"/>
+		</g>
+		<g>
+			<path class="st18" d="M216.3,103.6c0,0.5-0.1,1.8-0.1,2.3c0,2.4,0.9,3.3,2.7,3.4c1.3,0.1,2.1,0.9,2.1,2c0,1.1-0.8,1.9-2.1,2
+				c-1.8,0.1-2.7,1-2.7,3.4c0,0.6,0.1,1.8,0.1,2.3c0,3.2-1.5,5.3-6.5,6.4c-1.3,0.3-2.4-0.5-2.4-1.8c0-1,0.7-1.6,1.2-1.7
+				c2.6-0.9,3-1.9,3-3.7c0-0.7-0.1-1.8-0.1-2.5c0-2.5,1.2-3.8,3.5-4.5c-2.3-0.7-3.5-2.1-3.5-4.5c0-0.7,0.1-1.8,0.1-2.5
+				c0-1.8-0.4-2.8-3-3.7c-0.5-0.2-1.2-0.7-1.2-1.7c0-1.2,1-2.1,2.4-1.8C214.8,98.3,216.3,100.4,216.3,103.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st19" d="M94.1,201.6c-5.4-3.3-8.2-7.6-8.2-13.7s2.8-10.4,8.2-13.7c0.2-0.1,0.6-0.3,1.2-0.3c1,0,1.9,1,1.9,2.1
+				c0,0.8-0.4,1.3-0.8,1.7c-3.8,2.9-5.5,5.8-5.5,10.2c0,4.4,1.7,7.3,5.5,10.2c0.5,0.3,0.8,0.9,0.8,1.7c0,1-0.9,2.1-1.9,2.1
+				C94.8,201.9,94.3,201.7,94.1,201.6z"/>
+		</g>
+		<g>
+			<path class="st19" d="M103.3,199.8c0-0.8,0.4-1.3,0.8-1.7c3.8-2.9,5.5-5.8,5.5-10.2c0-4.4-1.7-7.3-5.5-10.2
+				c-0.5-0.3-0.8-0.9-0.8-1.7c0-1,0.9-2.1,1.9-2.1c0.6,0,1,0.2,1.2,0.3c5.4,3.3,8.2,7.6,8.2,13.7s-2.8,10.4-8.2,13.7
+				c-0.2,0.1-0.6,0.3-1.2,0.3C104.3,201.9,103.3,200.9,103.3,199.8z"/>
+		</g>
+	</g>
+	<g class="st14">
+		<g>
+			<path class="st20" d="M322.3,120c0-1.5,1.2-2.7,2.7-2.7h3.7c-1-2.2-3.2-3.7-5.8-3.7c-2.5,0-4.6,1.4-5.7,3.4h-20
+				c-0.8-0.9-2-1.5-3.4-1.5c-2.5,0-4.5,2-4.5,4.5c0,2.5,2,4.5,4.5,4.5c1.3,0,2.5-0.6,3.4-1.5h20c1.1,2,3.2,3.4,5.7,3.4
+				c2.6,0,4.8-1.5,5.8-3.7c-2.5,0-3.6,0-3.7,0C323.5,122.7,322.3,121.5,322.3,120z M293.7,121.9c-1,0-1.9-0.8-1.9-1.9
+				c0-1,0.8-1.9,1.9-1.9c1,0,1.9,0.8,1.9,1.9C295.6,121,294.8,121.9,293.7,121.9z"/>
+		</g>
+		<g>
+			<g>
+				<path class="st20" d="M327.7,104.1c0-1.6-1.2-2.9-2.8-3l0,0h-17V100c0-1.7-1.4-3-3-3h-1.5v14.4h1.5c1.7,0,3-1.4,3-3v-1.1h17l0,0
+					C326.5,107,327.7,105.7,327.7,104.1z M324.7,105.4c-0.7,0-1.3-0.6-1.3-1.3c0-0.7,0.6-1.3,1.3-1.3c0.7,0,1.3,0.6,1.3,1.3
+					C326,104.8,325.4,105.4,324.7,105.4z"/>
+			</g>
+			<g>
+				<path class="st20" d="M301.8,97h-11.3c-0.8,0-1.5,0.7-1.5,1.5c0,0.7,0.4,1.2,1,1.4c-0.6,0.2-1,0.8-1,1.4c0,0.7,0.4,1.2,1,1.4
+					c-0.6,0.2-1,0.8-1,1.4c0,0.7,0.4,1.2,1,1.4c-0.6,0.2-1,0.8-1,1.4c0,0.7,0.4,1.2,1,1.4c-0.6,0.2-1,0.8-1,1.4
+					c0,0.8,0.7,1.5,1.5,1.5h11.3V97z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st21" d="M148.2,284.6c0,0.5-0.3,0.8-0.8,0.8H53.3c-0.4,0-0.7-0.4-0.7-0.8v-42.3c0-0.5,0.3-0.8,0.7-0.8h94.2
+				c0.4,0,0.8,0.4,0.8,0.8V284.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st22" d="M252.4,284.6c0,0.5-0.3,0.8-0.8,0.8h-94.2c-0.4,0-0.7-0.4-0.7-0.8v-42.3c0-0.5,0.3-0.8,0.7-0.8h94.2
+				c0.4,0,0.8,0.4,0.8,0.8V284.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<path class="st23" d="M294.7,198.6c-0.5,0-1.1-0.2-1.5-0.6l-8.7-7.5c-0.5-0.4-0.8-1.1-0.8-1.8c0-0.7,0.3-1.3,0.8-1.8l8.7-7.5
+					c1-0.8,2.4-0.7,3.3,0.2c0.8,1,0.7,2.4-0.2,3.3l-6.7,5.8l6.7,5.8c1,0.8,1.1,2.3,0.2,3.3C296,198.3,295.4,198.6,294.7,198.6z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st23" d="M322.9,198.6c-0.7,0-1.3-0.3-1.8-0.8c-0.8-1-0.7-2.4,0.2-3.3l6.7-5.8l-6.7-5.8c-1-0.8-1.1-2.3-0.2-3.3
+					c0.8-1,2.3-1.1,3.3-0.2l8.7,7.5c0.5,0.4,0.8,1.1,0.8,1.8s-0.3,1.3-0.8,1.8l-8.7,7.5C324,198.4,323.5,198.6,322.9,198.6z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st23" d="M307.8,191c-1,0-1.8-0.8-1.9-1.7l-0.4-2.4c-0.2-1.2,0.5-2,1.6-2.1c3.1-0.4,4.5-1.3,4.5-3.1v-0.1
+					c0-1.6-1.2-2.5-3.3-2.5c-1.5,0-2.8,0.5-4.1,1.4c-0.4,0.3-1,0.6-1.6,0.6c-1.3,0-2.5-1.1-2.5-2.5c0-0.7,0.3-1.4,0.9-1.9
+					c1.9-1.6,4.2-2.5,7.4-2.5c5.1,0,8.6,2.6,8.6,7.3v0.1c0,4.5-3.1,6.3-7,7.1l-0.1,0.6c-0.1,0.9-0.9,1.7-1.9,1.7H307.8z
+					 M307.8,193.3c1.8,0,3.1,1.3,3.1,3v0.1c0,1.7-1.3,3-3.1,3c-1.8,0-3.1-1.3-3.1-3v-0.1C304.7,194.6,306.1,193.3,307.8,193.3z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<rect x="52.5" y="284.8" class="st0" width="95.7" height="15.4"/>
+	</g>
+	<g>
+		<rect x="156.7" y="284.8" class="st0" width="95.7" height="15.4"/>
+	</g>
+	<g>
+		<rect x="261" y="284.8" class="st0" width="95.7" height="15.4"/>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M107.8,298H93c-1.2,0-2.1-0.3-2.1-1.5s0.9-1.5,2.1-1.5h14.8c1.2,0,2.1,0.3,2.1,1.5S109,298,107.8,298z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M321,298h-24.4c-1.2,0-2.2-0.8-2.2-2s1-2,2.2-2H321c1.2,0,2.2,0.8,2.2,2S322.2,298,321,298z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M209.9,298h-10.6c-1.2,0-2.1-0.3-2.1-1.5s0.9-1.5,2.1-1.5h10.6c1.2,0,2.1,0.3,2.1,1.5S211.1,298,209.9,298z"
+				/>
+		</g>
+	</g>
+	<g>
+		<path class="st24" d="M220.5,249.2h-31.7c-1.2,0-2.1,1-2.1,2.1v23.9c0,1.2,1,2.1,2.1,2.1h31.7c1.2,0,2.1-1,2.1-2.1v-23.9
+			C222.6,250.2,221.6,249.2,220.5,249.2z M218.3,273.2h-27.6v-19.8h27.6V273.2z M220.6,264.9c-0.7,0-1.3-0.6-1.3-1.3
+			s0.6-1.3,1.3-1.3c0.7,0,1.3,0.6,1.3,1.3S221.3,264.9,220.6,264.9z"/>
+	</g>
+	<g>
+		<path class="st25" d="M299.7,266.7c0.2,0.5,0.3,0.9,0.6,1.4l-1.8,3.3c0,0,0,0.9,0.9,1.8c0.9,0.9,1.8,0.9,1.8,0.9l3.3-1.8
+			c0.4,0.2,0.9,0.4,1.4,0.6l1,3.6c0,0,0.6,0.6,1.9,0.6c1.3,0,1.9-0.6,1.9-0.6l1-3.6c0.5-0.2,0.9-0.3,1.4-0.6l3.3,1.8
+			c0,0,0.9,0,1.8-0.9c0.9-0.9,0.9-1.8,0.9-1.8l-1.8-3.3c0.2-0.4,0.4-0.9,0.6-1.4l3.6-1c0,0,0.6-0.6,0.6-1.9c0-1.3-0.6-1.9-0.6-1.9
+			l-3.6-1c-0.2-0.5-0.3-0.9-0.6-1.4l1.8-3.3c0,0,0-0.9-0.9-1.8c-0.9-0.9-1.8-0.9-1.8-0.9l-3.3,1.8c-0.4-0.2-0.9-0.4-1.4-0.6l-1-3.6
+			c0,0-0.6-0.6-1.9-0.6c-1.3,0-1.9,0.6-1.9,0.6l-1,3.6c-0.5,0.2-0.9,0.3-1.4,0.6l-3.3-1.8c0,0-0.9,0-1.8,0.9
+			c-0.9,0.9-0.9,1.8-0.9,1.8l1.8,3.3c-0.2,0.4-0.4,0.9-0.6,1.4l-3.6,1c0,0-0.6,0.6-0.6,1.9c0,1.3,0.6,1.9,0.6,1.9L299.7,266.7z
+			 M304.3,263.8c0-2.4,2-4.4,4.4-4.4c2.4,0,4.4,2,4.4,4.4c0,2.4-2,4.4-4.4,4.4C306.2,268.2,304.3,266.2,304.3,263.8z"/>
+	</g>
+	<g>
+		<path class="st26" d="M112.7,252.4h-0.5v-1.7c0-0.7-0.6-1.3-1.3-1.3c-0.7,0-1.3,0.6-1.3,1.3v1.7H107v-1.7c0-0.7-0.6-1.3-1.3-1.3
+			c-0.7,0-1.3,0.6-1.3,1.3v1.7h-2.7v-1.7c0-0.7-0.6-1.3-1.3-1.3s-1.3,0.6-1.3,1.3v1.7h-2.7v-1.7c0-0.7-0.6-1.3-1.3-1.3
+			s-1.3,0.6-1.3,1.3v1.7h-2.7v-1.7c0-0.7-0.6-1.3-1.3-1.3c-0.7,0-1.3,0.6-1.3,1.3v1.7H88c0,0-1.9,0-1.9,1.9v19.9c0,0,0,1.9,1.9,1.9
+			c1.9,0,24.7,0,24.7,0s1.9,0,1.9-1.9c0-1.9,0-18.1,0-19.9C114.6,252.4,112.7,252.4,112.7,252.4z M111.1,271H89.8v-1.9h21.3V271z
+			 M111.1,265H89.8v-1.9h21.3V265z M111.1,259.3H89.8v-1.9h21.3V259.3z"/>
+	</g>
+	<g class="st27">
+		<polygon class="st0" points="22.3,68 393.9,300.1 417,274.7 417,81.9 377.2,45.2 35.1,45 		"/>
+	</g>
+	<g>
+		<path class="st0" d="M44.3,59.5v240.6h1.4c-0.8-0.3-1.4-1.2-1.4-2.1V62c0-1.3,1-2.3,2.3-2.3h315.3c1.3,0,2.3,1,2.3,2.3v236
+			c0,1-0.6,1.8-1.4,2.1h1.6V59.5H44.3z"/>
+		<path class="st0" d="M365.4,301.1h-7.7l4.7-1.9c0.5-0.2,0.8-0.7,0.8-1.2V62c0-0.7-0.6-1.3-1.3-1.3H46.6c-0.7,0-1.3,0.6-1.3,1.3
+			v236c0,0.5,0.3,1,0.8,1.2l4.7,1.9h-7.5V58.5h322.1V301.1z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<path class="st28" d="M287.3,359.1c-3.5,0-6.4-2.9-6.4-6.5V7.4c0-3.6,2.9-6.5,6.4-6.5h203.3c3.5,0,6.4,2.9,6.4,6.5v345.1
+				c0,3.6-2.9,6.5-6.4,6.5H287.3z"/>
+		</g>
+		<g>
+			<path class="st29" d="M490.7,1.9c3,0,5.5,2.5,5.5,5.6v345.1c0,3.1-2.5,5.6-5.5,5.6H287.3c-3,0-5.5-2.5-5.5-5.6V7.4
+				c0-3.1,2.5-5.6,5.5-5.6H490.7 M490.7,0H287.3c-4,0-7.3,3.3-7.3,7.4v345.1c0,4.1,3.3,7.4,7.3,7.4h203.3c4,0,7.3-3.3,7.3-7.4V7.4
+				C498,3.3,494.7,0,490.7,0L490.7,0z"/>
+		</g>
+	</g>
+	<g>
+		<circle class="st30" cx="445" cy="23" r="2"/>
+	</g>
+	<g>
+		<path class="st4" d="M481.8,323.3V60.7l-185.6,0v262.4c0,0.7,0.3,1.8,1.4,1.8l183.2,0C481.5,324.9,481.8,323.9,481.8,323.3z"/>
+	</g>
+	<g>
+		<path class="st31" d="M481.8,35.4c-0.1-1.3-1.1-2.3-2.4-2.3H298.6c-1.3,0-2.4,1.1-2.4,2.4v17.6h185.6V35.4z"/>
+	</g>
+	<g>
+		<rect x="296.2" y="40.7" class="st5" width="185.6" height="20"/>
+	</g>
+	<g>
+		<path class="st32" d="M467.4,51.7c0.1,0.2,0.1,0.3,0.2,0.5l-0.7,1.2c0,0,0,0.3,0.3,0.6c0.3,0.3,0.6,0.3,0.6,0.3l1.2-0.7
+			c0.2,0.1,0.3,0.1,0.5,0.2l0.4,1.3c0,0,0.2,0.2,0.7,0.2c0.5,0,0.7-0.2,0.7-0.2l0.4-1.3c0.2-0.1,0.3-0.1,0.5-0.2l1.2,0.7
+			c0,0,0.3,0,0.6-0.3c0.3-0.3,0.3-0.6,0.3-0.6l-0.7-1.2c0.1-0.2,0.1-0.3,0.2-0.5l1.3-0.4c0,0,0.2-0.2,0.2-0.7c0-0.5-0.2-0.7-0.2-0.7
+			l-1.3-0.4c-0.1-0.2-0.1-0.3-0.2-0.5l0.7-1.2c0,0,0-0.3-0.3-0.6c-0.3-0.3-0.6-0.3-0.6-0.3l-1.2,0.7c-0.2-0.1-0.3-0.1-0.5-0.2
+			l-0.4-1.3c0,0-0.2-0.2-0.7-0.2c-0.5,0-0.7,0.2-0.7,0.2l-0.4,1.3c-0.2,0.1-0.3,0.1-0.5,0.2l-1.2-0.7c0,0-0.3,0-0.6,0.3
+			c-0.3,0.3-0.3,0.6-0.3,0.6l0.7,1.2c-0.1,0.2-0.2,0.3-0.2,0.5l-1.3,0.4c0,0-0.2,0.2-0.2,0.7c0,0.5,0.2,0.7,0.2,0.7L467.4,51.7z
+			 M469,50.6c0-0.9,0.7-1.6,1.6-1.6c0.9,0,1.6,0.7,1.6,1.6c0,0.9-0.7,1.6-1.6,1.6C469.7,52.2,469,51.5,469,50.6z"/>
+	</g>
+	<g>
+		<g>
+			<path class="st8" d="M393.5,171.6c0,0.4,0.3,0.7,0.6,0.7h81.5c0.4,0,0.6-0.3,0.6-0.7v-36.5c0-0.4-0.3-0.7-0.6-0.7h-81.5
+				c-0.4,0-0.6,0.3-0.6,0.7V171.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st9" d="M303.3,171.6c0,0.4,0.3,0.7,0.6,0.7h81.5c0.4,0,0.6-0.3,0.6-0.7v-36.5c0-0.4-0.3-0.7-0.6-0.7H304
+				c-0.4,0-0.6,0.3-0.6,0.7V171.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M386.1,192.2c0,0.4-0.3,0.7-0.6,0.7H304c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V192.2z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M386.1,191c0,0.4-0.3,0.7-0.6,0.7H304c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V191z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M476.3,192.2c0,0.4-0.3,0.7-0.6,0.7h-81.5c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V192.2z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M476.3,191c0,0.4-0.3,0.7-0.6,0.7h-81.5c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V191z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st10" d="M386.1,106c0,0.4-0.3,0.7-0.6,0.7H304c-0.4,0-0.6-0.3-0.6-0.7V69.5c0-0.4,0.3-0.7,0.6-0.7h81.5
+				c0.4,0,0.6,0.3,0.6,0.7V106z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M386.1,126.6c0,0.4-0.3,0.7-0.6,0.7H304c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V126.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M386.1,125.5c0,0.4-0.3,0.7-0.6,0.7H304c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V125.5z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st11" d="M476.3,106c0,0.4-0.3,0.7-0.6,0.7h-81.5c-0.4,0-0.6-0.3-0.6-0.7V69.5c0-0.4,0.3-0.7,0.6-0.7h81.5
+				c0.4,0,0.6,0.3,0.6,0.7V106z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M476.3,126.6c0,0.4-0.3,0.7-0.6,0.7h-81.5c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V126.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M476.3,125.5c0,0.4-0.3,0.7-0.6,0.7h-81.5c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V125.5z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st12" d="M386.1,237.2c0,0.4-0.3,0.7-0.6,0.7H304c-0.4,0-0.6-0.3-0.6-0.7v-36.5c0-0.4,0.3-0.7,0.6-0.7h81.5
+				c0.4,0,0.6,0.3,0.6,0.7V237.2z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M386.1,257.7c0,0.4-0.3,0.7-0.6,0.7H304c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V257.7z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M386.1,256.6c0,0.4-0.3,0.7-0.6,0.7H304c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V256.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st13" d="M476.3,237.2c0,0.4-0.3,0.7-0.6,0.7h-81.5c-0.4,0-0.6-0.3-0.6-0.7v-36.5c0-0.4,0.3-0.7,0.6-0.7h81.5
+				c0.4,0,0.6,0.3,0.6,0.7V237.2z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M476.3,257.7c0,0.4-0.3,0.7-0.6,0.7h-81.5c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V257.7z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M476.3,256.6c0,0.4-0.3,0.7-0.6,0.7h-81.5c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V256.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M351.1,118h-12.8c-1,0-1.8-0.5-1.8-1.5s0.8-1.5,1.8-1.5h12.8c1,0,1.8,0.5,1.8,1.5S352.1,118,351.1,118z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M355.2,184h-21.1c-1.1,0-1.9-0.9-1.9-2s0.9-2,1.9-2h21.1c1.1,0,1.9,0.9,1.9,2S356.3,184,355.2,184z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st33" d="M342.6,53H325c-1.1,0-1.9-0.9-1.9-2s0.9-2,1.9-2h17.6c1.1,0,1.9,0.9,1.9,2S343.7,53,342.6,53z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M439.4,118h-9.2c-1,0-1.8-0.5-1.8-1.5s0.8-1.5,1.8-1.5h9.2c1,0,1.8,0.5,1.8,1.5S440.5,118,439.4,118z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M445.4,184h-21.1c-1.1,0-1.9-0.9-1.9-2s0.9-2,1.9-2h21.1c1.1,0,1.9,0.9,1.9,2S446.5,184,445.4,184z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M350.2,249h-11c-1,0-1.8-0.5-1.8-1.5s0.8-1.5,1.8-1.5h11c1,0,1.8,0.5,1.8,1.5S351.2,249,350.2,249z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M438.7,249H431c-1,0-1.8-0.5-1.8-1.5s0.8-1.5,1.8-1.5h7.7c1,0,1.8,0.5,1.8,1.5S439.7,249,438.7,249z"/>
+		</g>
+	</g>
+	<g class="st14">
+		<g>
+			<path class="st15" d="M339.7,215.3L339.7,215.3C339.7,215.3,339.7,215.4,339.7,215.3L339.7,215.3L339.7,215.3L339.7,215.3
+				L339.7,215.3z"/>
+		</g>
+		<g>
+			<path class="st15" d="M359,213.3L359,213.3C359,213.3,359,213.3,359,213.3L359,213.3c-0.3-1.7-2.1-3.1-5.8-4.6
+				c-2.4-1-4.8-1.7-4.9-1.7l-0.3,0h-0.3h-6.4h-0.3l-0.3,0c-0.1,0-2.4,0.7-4.8,1.7c-3.7,1.5-5.4,2.9-5.7,4.6l0,0c0,0.1,0,0.1,0,0.2
+				c0,0.1,0,0.2,0,0.3c0,0.7,0,2.3,6.3,9.7c1.5,1.7,3.1,3.5,4.3,4.8c2.2,2.2,2.9,2.6,3.8,2.6c0.9,0,1.6-0.4,3.8-2.6
+				c1.3-1.3,2.8-3,4.3-4.7c6.3-7.3,6.3-8.9,6.3-9.6C359.1,213.7,359.1,213.5,359,213.3z M330.4,213.4
+				C330.4,213.4,330.4,213.4,330.4,213.4C330.4,213.4,330.4,213.4,330.4,213.4z M349.7,215.5l-5,13.5l-5-13.5l-7.5-1.7
+				c0,0,0-0.1,0-0.1c0.2-2,7.5-4.4,8.9-4.8c-0.2,0.6-1.8,6.2-1.4,6.5h9.9c0,0,0,0,0,0c0.2-0.6-1.5-5.9-1.7-6.5
+				c1.4,0.4,8.7,2.8,9.1,4.8h0c0,0,0,0,0,0.1L349.7,215.5z"/>
+		</g>
+		<g>
+			<path class="st15" d="M359,213.3c0,0.1,0,0.2,0,0.3C359.1,213.5,359.1,213.4,359,213.3z"/>
+		</g>
+	</g>
+	<g class="st14">
+		<g>
+			<g>
+				<path class="st16" d="M340,97.3c-0.5,0-1-0.2-1.4-0.5l-8.2-7.1c-0.5-0.4-0.8-1-0.8-1.6c0-0.6,0.3-1.2,0.8-1.6l8.2-7.1
+					c0.9-0.8,2.3-0.7,3.1,0.2c0.8,0.9,0.7,2.3-0.2,3.1l-6.3,5.4l6.3,5.4c0.9,0.8,1,2.2,0.2,3.1C341.2,97,340.6,97.3,340,97.3z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st16" d="M349.4,97.3c-0.6,0-1.2-0.3-1.6-0.8c-0.8-0.9-0.7-2.3,0.2-3.1l6.3-5.4l-6.3-5.4c-0.9-0.8-1-2.2-0.2-3.1
+					c0.8-0.9,2.2-1,3.1-0.2l8.2,7.1c0.5,0.4,0.8,1,0.8,1.6c0,0.6-0.3,1.2-0.8,1.6l-8.2,7.1C350.4,97.1,349.9,97.3,349.4,97.3z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st18" d="M424.8,94.2c0-0.4,0.1-1.5,0.1-2c0-2.1-0.8-2.8-2.4-2.9c-1.1-0.1-1.8-0.8-1.8-1.7c0-1,0.7-1.7,1.8-1.7
+				c1.5-0.1,2.4-0.9,2.4-2.9c0-0.5-0.1-1.6-0.1-2c0-2.8,1.3-4.5,5.7-5.5c1.1-0.3,2,0.4,2,1.5c0,0.9-0.6,1.3-1,1.5
+				c-2.2,0.8-2.6,1.6-2.6,3.2c0,0.6,0.1,1.5,0.1,2.2c0,2.1-1.1,3.3-3,3.9c2,0.6,3,1.8,3,3.9c0,0.6-0.1,1.6-0.1,2.2
+				c0,1.6,0.4,2.4,2.6,3.2c0.4,0.1,1,0.6,1,1.5c0,1.1-0.9,1.8-2,1.5C426.1,98.7,424.8,96.9,424.8,94.2z"/>
+		</g>
+		<g>
+			<path class="st18" d="M445,80.8c0,0.4-0.1,1.5-0.1,2c0,2.1,0.8,2.8,2.4,2.9c1.1,0.1,1.8,0.8,1.8,1.7c0,1-0.7,1.7-1.8,1.7
+				c-1.5,0.1-2.4,0.9-2.4,2.9c0,0.5,0.1,1.6,0.1,2c0,2.8-1.3,4.5-5.7,5.5c-1.1,0.3-2-0.4-2-1.5c0-0.9,0.6-1.3,1-1.5
+				c2.2-0.8,2.6-1.6,2.6-3.2c0-0.6-0.1-1.5-0.1-2.2c0-2.1,1.1-3.3,3-3.9c-2-0.6-3-1.8-3-3.9c0-0.6,0.1-1.6,0.1-2.2
+				c0-1.6-0.4-2.4-2.6-3.2c-0.4-0.1-1-0.6-1-1.5c0-1.1,0.9-1.8,2-1.5C443.7,76.2,445,78,445,80.8z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st19" d="M429.5,165.5c-4.7-2.8-7.1-6.6-7.1-11.8s2.4-9,7.1-11.8c0.1-0.1,0.5-0.2,1-0.2c0.9,0,1.7,0.9,1.7,1.8
+				c0,0.7-0.3,1.1-0.7,1.4c-3.3,2.5-4.8,5-4.8,8.8c0,3.8,1.5,6.3,4.8,8.8c0.4,0.3,0.7,0.7,0.7,1.4c0,0.9-0.8,1.8-1.7,1.8
+				C430.1,165.7,429.7,165.6,429.5,165.5z"/>
+		</g>
+		<g>
+			<path class="st19" d="M437.5,163.9c0-0.7,0.3-1.1,0.7-1.4c3.3-2.5,4.8-5,4.8-8.8c0-3.8-1.5-6.3-4.8-8.8c-0.4-0.3-0.7-0.7-0.7-1.4
+				c0-0.9,0.8-1.8,1.7-1.8c0.5,0,0.9,0.1,1,0.2c4.7,2.8,7.1,6.6,7.1,11.8s-2.4,9-7.1,11.8c-0.1,0.1-0.5,0.2-1,0.2
+				C438.3,165.7,437.5,164.8,437.5,163.9z"/>
+		</g>
+	</g>
+	<g class="st14">
+		<g>
+			<path class="st20" d="M356.3,160.5c0-1.3,1-2.3,2.3-2.3h3.2c-0.9-1.9-2.8-3.2-5-3.2c-2.1,0-4,1.2-4.9,2.9h-17.3
+				c-0.7-0.8-1.8-1.3-2.9-1.3c-2.2,0-3.9,1.8-3.9,3.9c0,2.2,1.8,3.9,3.9,3.9c1.2,0,2.2-0.5,2.9-1.3h17.3c0.9,1.7,2.8,2.9,4.9,2.9
+				c2.2,0,4.2-1.3,5-3.2c-2.1,0-3.2,0-3.2,0C357.4,162.8,356.3,161.8,356.3,160.5z M331.7,162.1c-0.9,0-1.6-0.7-1.6-1.6
+				c0-0.9,0.7-1.6,1.6-1.6c0.9,0,1.6,0.7,1.6,1.6C333.3,161.4,332.6,162.1,331.7,162.1z"/>
+		</g>
+		<g>
+			<g>
+				<path class="st20" d="M361.1,146.8c0-1.4-1.1-2.5-2.4-2.6l0,0h-14.7v-1c0-1.4-1.2-2.6-2.6-2.6H340V153h1.3
+					c1.4,0,2.6-1.2,2.6-2.6v-1h14.7l0,0C360,149.3,361.1,148.2,361.1,146.8z M358.5,147.9c-0.6,0-1.1-0.5-1.1-1.1
+					c0-0.6,0.5-1.1,1.1-1.1c0.6,0,1.1,0.5,1.1,1.1C359.5,147.4,359.1,147.9,358.5,147.9z"/>
+			</g>
+			<g>
+				<path class="st20" d="M338.7,140.6h-9.8c-0.7,0-1.3,0.6-1.3,1.3c0,0.6,0.4,1,0.9,1.2c-0.5,0.2-0.9,0.7-0.9,1.2
+					c0,0.6,0.4,1,0.9,1.2c-0.5,0.2-0.9,0.7-0.9,1.2c0,0.6,0.4,1,0.9,1.2c-0.5,0.2-0.9,0.7-0.9,1.2c0,0.6,0.4,1,0.9,1.2
+					c-0.5,0.2-0.9,0.7-0.9,1.2c0,0.7,0.6,1.3,1.3,1.3h9.8V140.6z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<path class="st23" d="M422.7,228.3c-0.5,0-0.9-0.2-1.3-0.5l-7.6-6.5c-0.4-0.4-0.7-0.9-0.7-1.5c0-0.6,0.3-1.1,0.7-1.5l7.6-6.5
+					c0.8-0.7,2.1-0.6,2.8,0.2c0.7,0.8,0.6,2.1-0.2,2.8l-5.8,5l5.8,5c0.8,0.7,0.9,2,0.2,2.8C423.8,228,423.2,228.3,422.7,228.3z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st23" d="M447.1,228.3c-0.6,0-1.1-0.2-1.5-0.7c-0.7-0.8-0.6-2.1,0.2-2.8l5.8-5l-5.8-5c-0.8-0.7-0.9-2-0.2-2.8
+					c0.7-0.8,2-0.9,2.8-0.2l7.6,6.5c0.4,0.4,0.7,0.9,0.7,1.5c0,0.6-0.3,1.1-0.7,1.5l-7.6,6.5C448,228.1,447.5,228.3,447.1,228.3z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st23" d="M434,221.7c-0.9,0-1.5-0.7-1.7-1.5l-0.3-2.1c-0.2-1,0.4-1.7,1.4-1.8c2.7-0.3,3.9-1.2,3.9-2.7v-0.1
+					c0-1.4-1-2.2-2.8-2.2c-1.3,0-2.4,0.4-3.6,1.2c-0.4,0.3-0.9,0.5-1.4,0.5c-1.2,0-2.1-1-2.1-2.1c0-0.6,0.2-1.2,0.8-1.7
+					c1.6-1.3,3.7-2.2,6.4-2.2c4.4,0,7.4,2.3,7.4,6.3v0.1c0,3.9-2.7,5.5-6,6.1l-0.1,0.6c-0.1,0.8-0.8,1.5-1.7,1.5H434z M434,223.7
+					c1.5,0,2.7,1.1,2.7,2.6v0.1c0,1.5-1.1,2.6-2.7,2.6s-2.7-1.1-2.7-2.6v-0.1C431.3,224.8,432.5,223.7,434,223.7z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path class="st22" d="M476.3,285.6V266c0-0.4-0.3-0.7-0.6-0.7h-81.5c-0.4,0-0.6,0.3-0.6,0.7v19.6H476.3z"/>
+	</g>
+	<g>
+		<path class="st34" d="M386.1,285.6V266c0-0.4-0.3-0.7-0.6-0.7H304c-0.4,0-0.6,0.3-0.6,0.7v19.6H386.1z"/>
+	</g>
+	<g>
+		<g>
+			<path class="st35" d="M299.5,53.1h-3.3v1.6h3.3c0.4,0,0.8-0.4,0.8-0.8S299.9,53.1,299.5,53.1z"/>
+		</g>
+		<g>
+			<path class="st35" d="M299.5,50.1h-3.3v1.6h3.3c0.4,0,0.8-0.4,0.8-0.8S299.9,50.1,299.5,50.1z"/>
+		</g>
+		<g>
+			<path class="st35" d="M299.5,47.1h-3.3v1.6h3.3c0.4,0,0.8-0.4,0.8-0.8C300.3,47.5,299.9,47.1,299.5,47.1z"/>
+		</g>
+	</g>
+	<g>
+		<path class="st36" d="M314.8,46.9c-0.4-0.2-1,0.1-1.4,0.8l-0.7,1.2c-0.3,0.5-0.2,1.1,0.1,1.6l0,0c0.3,0.5,0.8,0.9,0.9,1.1
+			c0.1,0.1,0.2,0.2,0.2,0.3c0.1,0.4-0.1,0.9-0.6,1c-0.4,0.1-0.9-0.1-1-0.6c0-0.1,0-0.2,0-0.3c0-0.2,0-0.5-0.3-0.7
+			c-0.3-0.3-0.8,0.3-0.9,0.8l0,0c-0.2,0.5-0.3,1-0.2,1.1c0,0,0,0.1,0.1,0.1c0.2,0.4,0.1,1-0.4,1.2c-0.4,0.2-1,0.1-1.2-0.4
+			c-0.2-0.4-0.1-1,0.4-1.2c0,0,0,0,0.1,0c0,0,0.1-0.2,0.2-0.5c0.1-0.3,0.2-0.5,0.2-0.5c0,0,0-0.1,0-0.1l0.4-1.6l-0.5,1
+			c-0.1-0.2-0.2-0.2-0.4,0c-0.1,0.1-0.3,0.3-0.4,0.3c-0.2,0.1-0.3,0.4-0.4,0.6c0,0.1-0.1,0.2-0.2,0.3c-0.3,0.3-0.8,0.2-1.1-0.1
+			c-0.3-0.3-0.2-0.8,0.1-1.1c0.1-0.1,0.2-0.1,0.3-0.2c0.2,0,0.9-0.5,1.3-0.8c0.1-0.1,0.1-0.1,0.2-0.1l1.1-0.8l-1,0.5
+			c0,0-0.1,0-0.2,0c-0.4,0-0.7,0.1-0.8,0.2c0,0.1-0.1,0.1-0.1,0.1c-0.3,0.2-0.8,0.2-1-0.2c-0.2-0.3-0.2-0.8,0.2-1
+			c0.1-0.1,0.3-0.1,0.4-0.1c0.3,0,0.9,0.1,1.5,0l0.1,0c0.6-0.1,1.2-0.6,1.5-1.1c0,0,0.3-0.5,0.6-1c0.3-0.6,0.3-1.2-0.1-1.4l-0.6-0.4
+			c-0.3-0.2-0.9-0.2-1.2,0l-4.4,2.5c-0.3,0.2-0.6,0.6-0.6,1v4.9c0,0.4,0.3,0.8,0.6,1l4.4,2.5c0.3,0.2,0.9,0.2,1.2,0l4.4-2.5
+			c0.3-0.2,0.6-0.6,0.6-1v-4.9c0-0.4-0.3-0.8-0.6-1C315.5,47.3,315.2,47.1,314.8,46.9z"/>
+	</g>
+	<g class="st14">
+		<path class="st24" d="M422,285.6v-10.5h25.6v10.5h1.5c-0.4-0.2-0.7-0.6-0.7-1.1c0-0.7,0.6-1.2,1.2-1.2c0.7,0,1.2,0.6,1.2,1.2
+			c0,0.5-0.3,0.9-0.7,1.1h1.3v-12.4c0-1.1-0.9-2-2-2h-29.5c-1.1,0-2,0.9-2,2v12.4H422z"/>
+	</g>
+	<g class="st14">
+		<path class="st37" d="M334.2,285.6V284h21.2v1.6h3.5c0-4.6,0-9.4,0-10.4c0-1.9-1.9-1.9-1.9-1.9h-0.5v-1.7c0-0.7-0.6-1.3-1.3-1.3
+			c-0.7,0-1.3,0.6-1.3,1.3v1.7h-2.7v-1.7c0-0.7-0.6-1.3-1.3-1.3c-0.7,0-1.3,0.6-1.3,1.3v1.7H346v-1.7c0-0.7-0.6-1.3-1.3-1.3
+			c-0.7,0-1.3,0.6-1.3,1.3v1.7h-2.7v-1.7c0-0.7-0.6-1.3-1.3-1.3c-0.7,0-1.3,0.6-1.3,1.3v1.7h-2.7v-1.7c0-0.7-0.6-1.3-1.3-1.3
+			c-0.7,0-1.3,0.6-1.3,1.3v1.7h-0.5c0,0-1.9,0-1.9,1.9v10.4H334.2z M334.2,278.3h21.2v1.9h-21.2V278.3z"/>
+	</g>
+	<g class="st27">
+		<polygon class="st0" points="498,360 280,0 498,0 		"/>
+	</g>
+	<g>
+		<g>
+			<path class="st21" d="M386.2,302.6c0,0.4-0.3,0.7-0.6,0.7h-81.4c-0.4,0-0.6-0.3-0.6-0.7v-36.5c0-0.4,0.3-0.7,0.6-0.7h81.4
+				c0.4,0,0.6,0.3,0.6,0.7V302.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st22" d="M476.3,302.6c0,0.4-0.3,0.7-0.6,0.7h-81.4c-0.4,0-0.6-0.3-0.6-0.7v-36.5c0-0.4,0.3-0.7,0.6-0.7h81.4
+				c0.4,0,0.6,0.3,0.6,0.7V302.6z"/>
+		</g>
+	</g>
+	<g>
+		<path class="st24" d="M448.6,272.1h-27.4c-1,0-1.8,0.8-1.8,1.8v20.6c0,1,0.8,1.8,1.8,1.8h27.4c1,0,1.8-0.8,1.8-1.8v-20.6
+			C450.4,272.9,449.6,272.1,448.6,272.1z M446.8,292.7h-23.9v-17.1h23.9V292.7z M448.7,285.6c-0.6,0-1.1-0.5-1.1-1.1
+			c0-0.6,0.5-1.1,1.1-1.1c0.6,0,1.1,0.5,1.1,1.1C449.8,285.1,449.3,285.6,448.7,285.6z"/>
+	</g>
+	<g>
+		<path class="st26" d="M355.5,274.8h-0.4v-1.4c0-0.6-0.5-1.1-1.1-1.1c-0.6,0-1.1,0.5-1.1,1.1v1.4h-2.3v-1.4c0-0.6-0.5-1.1-1.1-1.1
+			c-0.6,0-1.1,0.5-1.1,1.1v1.4h-2.3v-1.4c0-0.6-0.5-1.1-1.1-1.1s-1.1,0.5-1.1,1.1v1.4h-2.3v-1.4c0-0.6-0.5-1.1-1.1-1.1
+			s-1.1,0.5-1.1,1.1v1.4h-2.3v-1.4c0-0.6-0.5-1.1-1.1-1.1c-0.6,0-1.1,0.5-1.1,1.1v1.4h-0.4c0,0-1.6,0-1.6,1.6v17.2
+			c0,0,0,1.6,1.6,1.6c1.6,0,21.4,0,21.4,0s1.6,0,1.6-1.6s0-15.6,0-17.2C357.1,274.8,355.5,274.8,355.5,274.8z M354.1,290.8h-18.4
+			v-1.6h18.4V290.8z M354.1,285.7h-18.4v-1.6h18.4V285.7z M354.1,280.7h-18.4v-1.6h18.4V280.7z"/>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M386.1,322.6c0,0.4-0.3,0.7-0.6,0.7H304c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V322.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M386.1,321.5c0,0.4-0.3,0.7-0.6,0.7H304c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V321.5z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M476.3,322.6c0,0.4-0.3,0.7-0.6,0.7h-81.5c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V322.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M476.3,321.5c0,0.4-0.3,0.7-0.6,0.7h-81.5c-0.4,0-0.6-0.3-0.6-0.7v-19.3h82.8V321.5z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M355.2,314h-21c-1,0-1.8-0.5-1.8-1.5s0.8-1.5,1.8-1.5h21c1,0,1.8,0.5,1.8,1.5S356.2,314,355.2,314z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M438.7,314H431c-1,0-1.8-0.5-1.8-1.5s0.8-1.5,1.8-1.5h7.7c1,0,1.8,0.5,1.8,1.5S439.7,314,438.7,314z"/>
+		</g>
+	</g>
+</g>
+</svg>
+
+  <h3 class="mobile-awareness-alt-heading">Take Treehouse on the go!</h3>
+  <p class="mobile-awareness-alt-subline">Download Treehouse mobile apps for iOS and Android to keep your skills sharp when on the go.</p>
+  <a class="mobile-awareness-alt-link" data-featurette="analytics-click-event" data-event-category="link" data-event-action="M: Clicked Appstore Link" data-event-label="Source: Mobile awareness partial on person_sessions.new" href="https://itunes.apple.com/app/apple-store/id664753504?pt=1239266&amp;ct=Treehouse%20Mobile%20Awareness&amp;mt=8">App Store</a>
+  <a class="mobile-awareness-alt-link" data-featurette="analytics-click-event" data-event-category="link" data-event-action="M: Clicked Playstore Link" data-event-label="Source:  Mobile awareness partial on person_sessions.new" href="https://play.google.com/store/apps/details?id=com.teamtreehouse.android&amp;referrer=utm_source%3Dtreehouse-website">Play Store</a>
+</div>
+
+  </div>
+</div>
+
+</div></main>
+  <footer class="footer" role="contentinfo">
+  <div class="container ">
+      <dl class="footer-meta-list footer-meta-list-treehouse">
+        <dt class="footer-meta-title"><a class="footer-meta-treehouse-icon-link" href="/"><svg class="treehouse-icon footer-meta-treehouse-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 139 32"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#treehouse-icon"></use></svg></a></dt>
+        <dd class="footer-meta-item">Our mission is to bring <a class="footer-meta-treehouse-link" href="/">affordable, technology education</a> to people everywhere, in order to help them achieve their dreams and change the world.</dd>
+      </dl>
+      <dl class="footer-meta-list">
+        <dt class="footer-meta-title">Our Company</dt>
+        <dd class="footer-meta-item"><a rel="nofollow" class="footer-meta-link" href="/about">About Us</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/support">Contact Us</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/community">Community</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/stories">Treehouse Stories</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/perks">Student Perks</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="http://blog.teamtreehouse.com/">Treehouse Blog</a></dd>
+        <dd class="footer-meta-item"><a rel="nofollow" class="footer-meta-link" href="https://teamtreehouse.com/affiliate-program">Affiliate Program</a></dd>
+        <dd class="footer-meta-item"><a rel="nofollow" class="footer-meta-link" href="/careers">Careers</a></dd>
+      </dl>
+      <dl class="footer-meta-list">
+        <dt class="footer-meta-title">Topics</dt>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/library/topic:html">HTML</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/library/topic:css">CSS</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/library/topic:design">Design</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/library/topic:javascript">JavaScript</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/library/topic:ruby">Ruby</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/library/topic:php">PHP</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/library/topic:wordpress">WordPress</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/library/topic:ios">iOS</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/library/topic:android">Android</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/library/topic:development-tools">Development Tools</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/library/topic:business">Business</a></dd>
+      </dl>
+      <dl class="footer-meta-list">
+        <dt class="footer-meta-title">Tracks</dt>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/tracks/web-design">Web Design</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/tracks/web-development">Web Development</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/tracks/rails-development">Rails Development</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/tracks/php-development">PHP Development</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/tracks/ios-development">iOS Development</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/tracks/android-development">Android Development</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/tracks/wordpress-development">WordPress Development</a></dd>
+        <dd class="footer-meta-item"><a class="footer-meta-link" href="/tracks/starting-a-business">Starting a Business</a></dd>
+      </dl>
+    <ul class="footer-list">
+        <li class="footer-item footer-social-item">
+          <a title="Twitter" class="footer-social-link" target="_blank" href="http://twitter.com/treehouse"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="twitter-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#twitter-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="Youtube" class="footer-social-link" target="_blank" href="http://youtube.com/user/gotreehouse"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="youtube-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#youtube-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="Facebook" class="footer-social-link" target="_blank" href="http://facebook.com/teamtreehouse"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="facebook-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#facebook-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="Google Plus" class="footer-social-link" target="_blank" href="http://plus.google.com/110278003536476194286/posts"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="google-plus-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#google-plus-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="LinkedIn" class="footer-social-link" target="_blank" href="http://linkedin.com/company/treehouse-island-inc-"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="linked-in-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#linked-in-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="Instagram" class="footer-social-link" target="_blank" href="http://instagram.com/teamtreehouse"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="instagram-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#instagram-icon"></use></svg></a>
+        </li>
+      <li class="footer-item footer-item-text footer-item-blog"><a class="footer-item-text-link" href="http://blog.teamtreehouse.com/">Treehouse Blog</a></li>
+      <li class="footer-item footer-item-text"><a class="footer-item-text-link" href="/about">About Treehouse</a></li>
+      <li class="footer-item footer-item-text"><a rel="nofollow" class="footer-item-text-link" href="/privacy">Privacy Policy</a></li>
+      <li class="footer-item footer-item-text"><a rel="nofollow" class="footer-item-text-link" href="/terms">Terms &amp; Conditions</a></li>
+      <li class="footer-item footer-item-copyright">&copy; 2016 Treehouse Island, Inc.</li>
+    </ul>
+</div></footer>
+
+
+  
+ <!-- yields content from within treehouse-tour paths. Find helper in application.helper -->
+
+
+
+
+<div id="mini-profile-container"></div>
+<div id="tarp" class="modal-tarp" style="display: none;" data-featurette="tarp"></div>
+
+
+
+
+
+    
+
+    <script src="https://static.teamtreehouse.com/assets/application_vendor-8a23e8dce7b84386fe2b962820cd19c9.js"></script>
+    
+    <script src="https://static.teamtreehouse.com/assets/application-b0094b6b7c0f98eb6ca5d4d2f5b92f31.js"></script>
+    
+    
+      <script type="text/javascript">
+    mixpanel.register({visitor_id: 4474967132});
+
+    //  ensure we only send this once per day
+    if ($.cookie("mpVisited") === undefined) {
+      mixpanel.track("Visited Site", {"path":"/signin","campaign_id":null},
+      function() { $.cookie("mpVisited", "true", {expires: 1}); });
+        mixpanel.people.increment('daily_visits');
+    }
+
+  </script>
+
+<!-- Segment.io Analytics -->
+<script type="text/javascript">
+  !function(){
+    var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+    analytics.load("DMUKccVYvuuUIVSJlokCJe0YQyGm9qVb");
+
+    analytics.ready(function(){
+      window.analytics.segmentDebug = window.analytics.debug;
+      window.analytics.debug = function(state) {
+        if (state == null) { state = true; }
+        $.cookie("_treehouse_analytics_debug", state);
+        return state;
+      };
+    })
+
+    window.recordedAnalytics = []
+    function recordAnalyticsCall(callType, event, properties, options) {
+      if ($.cookie("_treehouse_analytics_debug") == "true") {
+        window.recordedAnalytics.push([callType, event, properties, options])
+        console.debug("Analytics: ", callType, ("'" + event + "'"), properties, options);
+      }
+    }
+    analytics.on('alias', function(e, p, o) { recordAnalyticsCall('alias', e, p, o)});
+    analytics.on('identify', function(e, p, o) { recordAnalyticsCall('identify', e, p, o)});
+    analytics.on('group', function(e, p, o) { recordAnalyticsCall('group', e, p, o)});
+    analytics.on('track', function(e, p, o) { recordAnalyticsCall('track', e, p, o)});
+    analytics.on('page', function(e, p, o) { recordAnalyticsCall('page', e, p, o)});
+
+    var session_id = "2410a583-afa6-401e-ad31-9dc50b988bb2";
+    var request_id = "6932a83d-0cd1-49ab-891f-422363866999";
+    var visitor_id = $.cookie("vid");
+    var user_id = "";
+    var organization_id = "";
+    var composite_identity = "MjQxMGE1ODMtYWZhNi00MDFlLWFkMzEtOWRjNTBiOTg4YmIyNDQ3NDk2NzEzMg==";
+
+    function trackIdentity() {
+        window.analytics.identify({
+          visitor_id: visitor_id,
+          session_id: session_id
+        }, {
+          anonymousId: session_id,
+          Intercom : {
+            user_hash : "1640bfaa8365f756ece3e0a3d3e3ad5a8f626a5a76c2828874f0cb853ba3aed2"
+          }
+        });
+
+    }
+
+    function trackPage() {
+      window.analytics.page({
+        visitor_id: visitor_id,
+        session_id: session_id,
+        request_id: request_id
+      }, {
+        anonymousId: session_id
+      });
+    }
+
+    if ($.cookie("_analytics_composite_identity") != composite_identity) {
+      analytics.reset();
+    }
+    $.cookie("_analytics_composite_identity", composite_identity);
+
+    trackIdentity();
+    trackPage();
+
+    $(document).on("pjax:success", function(event, body, status, xhr, options) {
+      request_id = xhr.getResponseHeader("X-Request-Id");
+      trackPage();
+    });
+  }}();
+
+</script>
+
+  </body>
+</html>
+
+::Request::
+POST /person_session HTTP/1.1
+Host: teamtreehouse.com
+Connection: close
+Content-Length: 221
+Cache-Control: max-age=0
+Origin: https://teamtreehouse.com
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: https://teamtreehouse.com/signin
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.8
+Cookie: __qca=P0-1067227386-1476968740216; notbot=true; intercom-visitor-semaphore-vc705b7s=1; vid=4474967132; _dc_gtm_UA-25670760-9=1; _gat_UA-25670760-9=1; mpVisited=true; intercom-session-vc705b7s=ejFlalNtSllsd05ZL3dBd0tML1h6VWUwMjlPUVJtZGpsaUM2MEFiS3ZUY1pKL1BacFlsd05GSzRtYlo4WFVyNC0tTURhQmJsYU9sdWwxUVVWcUxZR3BNQT09--e2a0221f30d2d49a49c4071eb6a209a64676afcb; IRF_1238=%7Bvisits%3A8%2Cuser%3A%7Btime%3A1476975195738%2Cref%3A%22direct%22%2Cpv%3A87%2Ccap%3A%7B%7D%2Cv%3A%7B%7D%7D%2Cvisit%3A%7Btime%3A1477120326464%2Cref%3A%22direct%22%2Cpv%3A4%2Ccap%3A%7B%7D%2Cv%3A%7B%7D%7D%2Clp%3A%22https%3A%2F%2Fteamtreehouse.com%2Fhome%22%2Cdebug%3A0%2Ca%3A1477120351709%7D; ajs_group_id=null; ajs_user_id=null; ajs_anonymous_id=%222410a583-afa6-401e-ad31-9dc50b988bb2%22; intercom-id=d793c710-05c0-484e-8683-e7e4469bd53c; IRMS_la3944=1477120353899; mp_7b38bdec31b0d42dc60b2c77d946e5ad_mixpanel=%7B%22distinct_id%22%3A%20%22157e23256342a2-0f16d9f082368c-a33316d-e1000-157e2325638359%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22visitor_id%22%3A%204474967132%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%22daily_visits%22%3A%204%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpap%22%3A%20%5B%5D%2C%22%24search_engine%22%3A%20%22google%22%7D; mp_mixpanel__c=4; sid=2410a583-afa6-401e-ad31-9dc50b988bb2; _treehouse_session=V25YL0VKelBCSkRXTCs5aU5PUUd6cm9CMURqM1ROMWs0VnFXTjVtMnRvd1JKYnZOdVE2aVcyS1laR2JtWUd4eVdsWVl0YkZGSTY0bHY0U3kzR0V0VjZVSkpFcC9xNEVUOFArUkpqbEE2cHBwWE5Sbjc1Qk9RVlp1eTB3K3VLZ1lWVEFDMGZ4aVdWQUN2T3JyOEtVemdHdTBaZ0s2dmM2ZW5oendpMEg3M3dnd0RwZ0N6VVQ3ZGJhWDFYbHhuNTlQRzh3Z3I2bU5lN3FVL3ZPL1J6ZHUzRFJhcGF4UmFlNGJ3QjZGK0J2SzJJVXE0VDlWRlFSQTBwZ0lGTTFhY1hSRjhTeWsySWVMUjJzSGJFdXMwSzJLazBWb3g5WUdCZU4wWktsdVIvQnlPMnFwclZBRkRrSXBhNFhXcDYrWmI5NnQtLXgrb1V1UkNSbUUrM1hnSEZJUXZyMVE9PQ%3D%3D--d81a4d6e440c567d677428f704f90fc577035601; _analytics_composite_identity=MjQxMGE1ODMtYWZhNi00MDFlLWFkMzEtOWRjNTBiOTg4YmIyNDQ3NDk2NzEzMg%3D%3D; _ga=GA1.2.130153331.1476968733
+
+utf8=%E2%9C%93&authenticity_token=hItqE8cvcD7Khs0P6RPjmF%2BNot8Bxx5i9riA1XxcZZQVnIqUL97bupi7SCliUUI7KKUwG7hZQYogCcgIssMBHw%3D%3D&user_session%5Bemail%5D=emmett_young92%40yahoo.com&user_session%5Bpassword%5D=Young%21080492
+
+::Response::
+HTTP/1.1 302 Found
+Server: nginx/1.10.2
+Date: Sat, 22 Oct 2016 07:19:21 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Status: 302 Found
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Location: https://teamtreehouse.com/home
+Access-Control-Allow-Origin: https://teamtreehouse.com
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Expose-Headers: 
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Credentials: true
+Vary: Origin
+Cache-Control: no-cache
+Set-Cookie: sid=2410a583-afa6-401e-ad31-9dc50b988bb2; path=/; expires=Sat, 22 Oct 2016 07:49:21 -0000; secure
+Set-Cookie: user_credentials=3038be6ce47b8008cd7aee0773d72657f7eeba8e312ffd24e38163e501a83ae3dfcf8adabb8406bb5ead73e45b8643892ec444a75a4596178788e822b8355fe1%3A%3A7099562%3A%3A2017-01-22T07%3A19%3A21Z; path=/; expires=Sun, 22 Jan 2017 07:19:21 -0000; HttpOnly; secure
+Set-Cookie: _treehouse_session=eTYycjc2em5uTWtETTlHRVJuME9xaG8wS29Ycll4bkNObENrVTBxN3lZcnNJc0c0b0dwY2FnS05BTlZqQVdYZ05Ua0QvMkM4VWZTSm9naGNvSXRrOHl4U2lzNFdVTW1WTlBFMVBic01kUzc3bmdYaC8zZ05NQ2M5czQyWjdmU3BDK3g3TjFtbG9vUXJETVdjSHd2c2ZFVDZlNExKamlIZWwzbVFoSkhwanA2c0VzeUtsOVJHUlRZVUZ4blRPeGRsNWwwTFJMYkVjejY3bHJJMWRGSlZtS2J2NVVjaGJwSTUxNVVUVzF0TWdWMk9RaHhROFAyb0twRVM2QUJOeTEyaFNYdVVnZ0RMT1h3ZXVXcEYvazZORW16MWM4VzJIOGVRQmhFWHBXcEd0OXZvOGpuVk4rTUFPc1lnTVF0WFBhWVRsRVdvWEdWbWh6M3dUNWNsOGRoOUVVVFFLaEcrTkFiSE5nR0d3ZDQvd2pPcjdvWEg1YXo4eHBjREFDQjBXTlhqVmM2VjdMUGExME00SVUwbXBIaCs3K2VBNnhPWTc2NlZydTZLV29yTkZneFZ0dkNTVzFFV0swUGV4eUs1R0VXcmx4cmNBN3JMcmxDb3UwQlZiNDIvOEk1a1h0UkhwSnBHelZzTnZxVnByaFpSMTVzaUowL1JIWHR2RUpjdFJhSTRSVU05QXpDTjFiS0ZxQXRaSkI2YTUrVy9RYUQxck9kZU5teFAzckxIV3hFPS0tcS8rZGR0K25PY0tGYWZyb2xlOUJRQT09--7cd0a07d9b35cadf44574d1cfe29ce9f923c74c5; path=/; secure; HttpOnly
+X-Request-Id: 8715e0dc-9b7b-4713-a9a3-e62a8fb166ba
+X-Runtime: 0.147327
+X-Served-By: app1.prod.wdc04
+Content-Length: 96
+
+<html><body>You are being <a href="https://teamtreehouse.com/home">redirected</a>.</body></html>
+
+::Request::
+GET /home HTTP/1.1
+Host: teamtreehouse.com
+Connection: close
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: https://teamtreehouse.com/signin
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-US,en;q=0.8
+Cookie: __qca=P0-1067227386-1476968740216; notbot=true; intercom-visitor-semaphore-vc705b7s=1; vid=4474967132; _dc_gtm_UA-25670760-9=1; _gat_UA-25670760-9=1; mpVisited=true; intercom-session-vc705b7s=ejFlalNtSllsd05ZL3dBd0tML1h6VWUwMjlPUVJtZGpsaUM2MEFiS3ZUY1pKL1BacFlsd05GSzRtYlo4WFVyNC0tTURhQmJsYU9sdWwxUVVWcUxZR3BNQT09--e2a0221f30d2d49a49c4071eb6a209a64676afcb; IRF_1238=%7Bvisits%3A8%2Cuser%3A%7Btime%3A1476975195738%2Cref%3A%22direct%22%2Cpv%3A87%2Ccap%3A%7B%7D%2Cv%3A%7B%7D%7D%2Cvisit%3A%7Btime%3A1477120326464%2Cref%3A%22direct%22%2Cpv%3A4%2Ccap%3A%7B%7D%2Cv%3A%7B%7D%7D%2Clp%3A%22https%3A%2F%2Fteamtreehouse.com%2Fhome%22%2Cdebug%3A0%2Ca%3A1477120351709%7D; ajs_group_id=null; ajs_user_id=null; ajs_anonymous_id=%222410a583-afa6-401e-ad31-9dc50b988bb2%22; intercom-id=d793c710-05c0-484e-8683-e7e4469bd53c; IRMS_la3944=1477120353899; mp_7b38bdec31b0d42dc60b2c77d946e5ad_mixpanel=%7B%22distinct_id%22%3A%20%22157e23256342a2-0f16d9f082368c-a33316d-e1000-157e2325638359%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22visitor_id%22%3A%204474967132%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%22daily_visits%22%3A%204%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpap%22%3A%20%5B%5D%2C%22%24search_engine%22%3A%20%22google%22%7D; mp_mixpanel__c=4; _analytics_composite_identity=MjQxMGE1ODMtYWZhNi00MDFlLWFkMzEtOWRjNTBiOTg4YmIyNDQ3NDk2NzEzMg%3D%3D; _ga=GA1.2.130153331.1476968733; sid=2410a583-afa6-401e-ad31-9dc50b988bb2; user_credentials=3038be6ce47b8008cd7aee0773d72657f7eeba8e312ffd24e38163e501a83ae3dfcf8adabb8406bb5ead73e45b8643892ec444a75a4596178788e822b8355fe1%3A%3A7099562%3A%3A2017-01-22T07%3A19%3A21Z; _treehouse_session=eTYycjc2em5uTWtETTlHRVJuME9xaG8wS29Ycll4bkNObENrVTBxN3lZcnNJc0c0b0dwY2FnS05BTlZqQVdYZ05Ua0QvMkM4VWZTSm9naGNvSXRrOHl4U2lzNFdVTW1WTlBFMVBic01kUzc3bmdYaC8zZ05NQ2M5czQyWjdmU3BDK3g3TjFtbG9vUXJETVdjSHd2c2ZFVDZlNExKamlIZWwzbVFoSkhwanA2c0VzeUtsOVJHUlRZVUZ4blRPeGRsNWwwTFJMYkVjejY3bHJJMWRGSlZtS2J2NVVjaGJwSTUxNVVUVzF0TWdWMk9RaHhROFAyb0twRVM2QUJOeTEyaFNYdVVnZ0RMT1h3ZXVXcEYvazZORW16MWM4VzJIOGVRQmhFWHBXcEd0OXZvOGpuVk4rTUFPc1lnTVF0WFBhWVRsRVdvWEdWbWh6M3dUNWNsOGRoOUVVVFFLaEcrTkFiSE5nR0d3ZDQvd2pPcjdvWEg1YXo4eHBjREFDQjBXTlhqVmM2VjdMUGExME00SVUwbXBIaCs3K2VBNnhPWTc2NlZydTZLV29yTkZneFZ0dkNTVzFFV0swUGV4eUs1R0VXcmx4cmNBN3JMcmxDb3UwQlZiNDIvOEk1a1h0UkhwSnBHelZzTnZxVnByaFpSMTVzaUowL1JIWHR2RUpjdFJhSTRSVU05QXpDTjFiS0ZxQXRaSkI2YTUrVy9RYUQxck9kZU5teFAzckxIV3hFPS0tcS8rZGR0K25PY0tGYWZyb2xlOUJRQT09--7cd0a07d9b35cadf44574d1cfe29ce9f923c74c5
+If-None-Match: W/"8aadfbc1fb6e1988a11373bb8dde1248"
+
+::Response::
+HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Sat, 22 Oct 2016 07:20:05 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Vary: Accept-Encoding
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Vary: X-PJAX
+ETag: W/"3c060bdaa0cdb3d0a756b33a0c82cda3"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: sid=2410a583-afa6-401e-ad31-9dc50b988bb2; path=/; expires=Sat, 22 Oct 2016 07:50:04 -0000; secure
+Set-Cookie: _treehouse_session=YlZmYjl0M0dZODNEMTlsNW53SC9nVFRyMDBGMmRUWGhJRkJMWFhWb2FaeTV1QXlidWl0dUN2dFhnQzNQRGxpalRTeE1RK05ob2Fvd1BoYVFQWm1HR01WUENVUXVyZjVpRlMzRmE5aG1UeEU5eXpmQzM5VjBHcXBzYU5ncmlpKytXZzdYVUxwL2tNQUkyNVhCMmFZa0ptU0gzcVRpMWgweUxuRzZqd0RCMHhiVnpEekNyTEhXQ1U5NmpSNWoyTytreTRiSHRMVzY4VjJXYlY1SGdtVTBYYmhiVUJGL2lCRzd0dGpLTzN6NlpKRlRNMlFXRklxT1JwbDRveG9MS1B3bWpidXY0TGdjNmVrUi9zV0gvSnFXTUhsQlJSciswbnBqQUVXMUtzOHQxeHRjL3ErWFpRcnNBSU9wMnhzUTNGNnJMbHkyc1NnRVVxUEdJNFAxcDdFL1k5WEp0V3dhRlBUTkw5QS9YWW5aOUZZdVQweGxnNDBUMVNlYllxY2kvNm1rVmwwbjZweWh6TzkvbUZlSnhNRWpvbGppTytiTXR4MlJDQjVWNkV1Z3Z0QUw5eG82emhvdVVBdDlFOXQ0MDdMdDh5c1VLVmdadW9zYzhBUGpWTkVBQ1d5STZuUkNPYVNXckZ0SjhlWTF1NWwvbFdZY09MVitkcWcvM2dndWFteTNZQUR5SklqU3JNQVFHT0NiSy95YXVFNi91N1g5Wm81VHRCQ29Kc00zb1hSVFBkdFNGOWVTaWlnN0Q0RkNPclVPbHc3d1VoWDV0dUczSU5KaUo2ODRJUUs4b1JkbEUzWmpVQzdXZVRuanpIcFZFUEsvcHd5MUE4Rm41QlM5YzkyZUU0QU0rT1lWY2lXR1JZOVpJUFdhT2c9PS0teU0vRmhRaDlhZHhQY04vMVlFa1ZVdz09--0f6e6f4e8431809d62beaef24725f7a62ac600d0; path=/; secure; HttpOnly
+X-Request-Id: 55b0ab02-0927-4f1a-afb9-672986c21b73
+X-Runtime: 0.493232
+X-Served-By: app2.prod.wdc04
+Content-Length: 55647
+
+<!DOCTYPE html>
+<html lang="en" class="application-layout dashboard-index dashboard-controller index-action logged-in chrome webkit windows" id="layout" data-featurette="application-layout"  >
+  <head>
+    <title>Treehouse | Home</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d98036d1cc","applicationID":"1824378","transactionName":"cQ5eRRQNCQ8BFhZcVkEJUl4HEAFMDQpdXU8=","queueTime":2,"applicationTime":491,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwIBVldWGwIIVlVRAAk="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="google-site-verification" content="4Ga-viQvIZUFNQXu323xpp_24RDlLooxwlpnXhinjPA" />
+    <meta name="msvalidate.01" content="F0716E70B7DD3B8C892B48891CA4B541" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="wCW/nHqYpjn3S8Z7EsfsKvvlBCdhYL9k8fqz02w9xwdRMl8bkmkNvaV2Q12ZhU2JjM2W49j+4IwnS/sOoqKjjA==" />
+
+
+
+
+    <script>
+//<![CDATA[
+window.appData = '{\"controller_name\":\"dashboard\",\"action_name\":\"index\",\"app_version\":\"5c77a9aa2bf211b84bf04bdad932776fd9d108f0\",\"user\":{\"id\":7099562,\"name\":\"Emmett Young\",\"profile_name\":\"emmettyoung2\",\"cache_marks\":{\"notifications\":1477039648,\"progress\":1477047628,\"bookmarks\":1477040052,\"queue\":1477040199}}}'
+//]]>
+</script>
+
+    <link rel="stylesheet" media="screen" href="https://static.teamtreehouse.com/assets/vendor-85aafb4bb1a3e2aecda6887faf893dce.css" />
+<link rel="stylesheet" media="screen" href="https://static.teamtreehouse.com/assets/application-8b26e4fb153622d177b9fe92912c5f93.css" />
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7055252/762022/css/fonts.css" />
+    
+
+    <style media="print">
+      header, footer, .graph, .nav, svg {
+        display: none
+      }
+    </style>
+
+    <link rel="shortcut icon" href="/assets/favicon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://static.teamtreehouse.com/assets/apple-touch-icon-60x60-precomposed-0c535bd2d450d0d63674d42e0211fa06.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://static.teamtreehouse.com/assets/apple-touch-icon-76x76-precomposed-70428f11bacc8386f67bd0d9a2bb6f3d.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://static.teamtreehouse.com/assets/apple-touch-icon-120x120-precomposed-f57b728bdb270f61fd44beb7977a1061.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://static.teamtreehouse.com/assets/apple-touch-icon-152x152-precomposed-83e1f23c91e515a59bf5dbf3ff578ccd.png" />
+
+    
+
+
+
+      <!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+  for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+  mixpanel.init("7b38bdec31b0d42dc60b2c77d946e5ad");</script><!-- end Mixpanel -->
+
+    
+
+    
+
+    <script type="text/javascript">
+(function() {
+  var s = document.createElement('script'),
+  e = document.getElementsByTagName('script')[0];
+  s.src = '//d3cxv97fi8q177.cloudfront.net/foundation-A187849-72ad-44c6-83bc-3d4f458b85e71.min.js';s.type = 'text/javascript';s.async = true;s.id="irfOuterTag";
+  e.parentNode.insertBefore(s, e);
+
+})();
+</script>
+<noscript><img src="//tl.r7ls.net/unscripted/187849" width="1" height="1"></noscript>
+
+  </head>
+  <body  class="windows chrome webkit ">
+    <!-- Data Layer -->
+<script>
+  dataLayer = [{"loggedIn":true,"userId":7099562,"userEmail":"emmett_young92@yahoo.com","userDisplayName":"Emmett Young","accountState":"active","techdegreeStudent":false}];
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PZ55S7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PZ55S7');</script>
+<!-- End Google Tag Manager -->
+
+
+
+  <header class="header" role="banner" data-header>
+    <nav class="header-nav container" role="navigation" data-nav>
+      <button class="hamburger-button hamburger-button-inverse" aria-label="Navigation Menu" data-hamburger-button>
+  <span class="hamburger"></span>
+</button>
+
+      <ul class="header-nav-list header-nav-item-profile-points-size-2">
+        <li class="header-nav-item  header-nav-item-primary header-nav-item-logo ">
+          <h6 class="header-nav-item-logo-container">
+            <a class="header-nav-link header-nav-item-logo-link" aria_label="Treehouse Home" data-analytics-link="Treehouse Logo" data-analytics-event="application nav link" data-analytics-path="/home" data-analytics-action="clicked" href="/home">
+              <svg class="logo-icon header-nav-item-logo-icon" alt="Treehouse" preserveAspectRatio="xMinYMin meet" viewBox="0 0 30 32"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#logo-icon"></use></svg>
+</a>          </h6>
+</li>
+
+          <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-techdegrees ">
+            <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Techdegree" data-analytics-path="/techdegree" data-analytics-action="clicked" href="/techdegree">Techdegree</a>
+</li>
+        <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-tracks ">
+          <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Tracks" data-analytics-path="/tracks" data-analytics-action="clicked" href="/tracks">Tracks</a>
+</li>
+        <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-library ">
+          <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Library" data-analytics-path="/library" data-analytics-action="clicked" href="/library">Library</a>
+</li>
+        <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-community ">
+          <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Community" data-analytics-path="/community" data-analytics-action="clicked" href="/community">Community</a>
+</li>
+        <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-support ">
+          <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Support" data-analytics-path="/support" data-analytics-action="clicked" href="/support">Support</a>
+</li>
+
+          <li class="header-nav-item header-nav-item-tablet header-nav-item-secondary header-nav-item-workspaces ">
+            <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Workspaces" data-analytics-path="/workspaces" data-analytics-action="clicked" href="/workspaces">Workspaces</a>
+</li>
+          <li class="header-nav-item header-nav-item-mobile header-nav-item-secondary header-nav-item-profile " data-nav-item="profile">
+            <a data-nav-link-profile="" data-dropdown-toggle="profile" data-analytics-link="Profile" data-analytics-action="clicked:internal" data-analytics-event="application nav link" data-analytics-path="/emmettyoung2" class="header-nav-link " href="/emmettyoung2">
+              <div class="header-nav-item-profile-avatar avatar-deep-blue-bg  avatar avatar-small" id="avatar-aba27b">
+  
+  <div class="points-donut chart avatar-points" data-animate-points="true" data-initialize-later="null" data-featurette="points-chart" data-width="36" data-height="36" data-donut-width="9px" data-points="{&quot;html&quot;:0,&quot;css&quot;:0,&quot;design&quot;:0,&quot;javascript&quot;:0,&quot;ruby&quot;:0,&quot;php&quot;:0,&quot;wordpress&quot;:0,&quot;ios&quot;:0,&quot;android&quot;:5,&quot;development-tools&quot;:0,&quot;business&quot;:0,&quot;python&quot;:0,&quot;java&quot;:3,&quot;digital-literacy&quot;:0,&quot;game-development&quot;:0,&quot;csharp&quot;:0,&quot;databases&quot;:0}" data-points-total="38" data-padding="1"></div>
+  <div class="avatar-container">
+    <img alt="Emmett Young" class="avatar-image" src="https://secure.gravatar.com/avatar/49118eb9a32d628ba27cb4a3ecf12512?s=72&amp;d=https%3A%2F%2Fstatic.teamtreehouse.com%2Fassets%2Fcontent%2Fdefault_avatar-d5ee029fdb4c0604d314eb946dbf8e6a.png&amp;r=pg" />
+  </div>
+  
+  
+  
+</div>
+<span class="header-nav-item-profile-points">38</span>
+<span class="header-nav-item-profile-text">View Profile</span>
+
+              <svg class="chevron-icon header-nav-item-profile-chevron" preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 7.5"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#chevron-icon"></use></svg>
+</a>            <div class="header-nav-item-profile-dropdown dropdown dropdown-right">
+  <h4 class="dropdown-title">
+    <a href="/emmettyoung2" class="header-nav-item-profile-dropdown-title-link">
+      <strong class="header-nav-item-profile-dropdown-title-name">Emmett Young</strong>
+      <span class="header-nav-item-profile-dropdown-title-label">View Profile</span>
+    </a>
+  </h4>
+  <ul>
+    <li><a href="/account">Account Settings</a></li>
+      <li><a href="/account/referrals">Referral Discounts</a></li>
+  </ul>
+  <a class="dropdown-secondary" href="/logout">Sign Out</a>
+</div>
+
+</li>
+          <li class="header-nav-item header-nav-item-mobile header-nav-item-secondary header-nav-item-notifications " data-featurette="notifications" data-channel="th-production-9cbb8059f4458f63fa2b8f4dcf0e0f55" data-nav-item="notifications">
+            <a data-notifications-link="" data-dropdown-toggle="notifications" data-analytics-link="Notifications" data-analytics-action="clicked:internal" data-analytics-event="application nav link" data-analytics-path="/notifications" class="header-nav-link " href="/notifications">
+              <svg class="notifications-icon header-nav-item-notifications-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#notifications-icon"></use></svg>
+              <span class="header-nav-item-notifications-count" data-featurette="notifications-count"></span>
+              <span class="header-nav-item-notifications-text">Notifications</span>
+</a>            <div class="header-nav-item-notifications-dropdown dropdown dropdown-right notifications notification-dropdown" data-notification-dropdown>
+  <h4 class="dropdown-title"><a href="/notifications">Notifications</a></h4>
+  <div class="loading">
+    <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+  </div>
+</div>
+
+</li>
+          <li class="header-nav-item header-nav-item-mobile header-nav-item-secondary header-nav-item-settings ">
+            <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Settings" data-analytics-path="/account" data-analytics-action="clicked" href="/account">Settings</a>
+</li>
+          <li class="header-nav-item header-nav-item-mobile header-nav-item-secondary header-nav-item-sign-out ">
+            <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Sign Out" data-analytics-path="/logout" data-analytics-action="clicked" href="/logout">Sign Out</a>
+</li>      </ul>
+      
+    </nav>
+  </header>
+
+  <main class="content " role="main" data-content="">
+      <div class="container ">
+        
+        
+        
+
+
+
+
+            
+<div class="marketing-banner-techdegree marketing-banner-centered-inverse" data-featurette="degree-marketing-banner" data-analytics-event="techdegree banner" data-analytics-action="viewed">
+  <h3 class="marketing-banner-heading">
+    Up your game with a Techdegree
+  </h3>
+
+  <p class="marketing-banner-paragraph">
+    Take your learning to the next level! The Techdegree program will push you to learn all you need to start a new career as a developer. Build a professional portfolio of peer-reviewed projects, complete a final proctored exam, and earn your certification for just $199/month. Start with a Free Trial today!
+  </p>
+
+  <a class="button marketing-banner-action" data-analytics-event="techdegree banner" data-analytics-action="clicked" href="/degree_memberships/redirect_to_get_a_techdegree">Learn More</a>
+  <a class="marketing-banner-close" data-close-marketing-banner data-analytics-event="techdegree banner" data-analytics-action="closed"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12" class="close-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#close-icon"></use></svg></a>
+</div>
+
+    <div class="alert-banner info demographic-survey-banner" data-featurette="alert"><p>
+      <svg preserveAspectRatio="xMinYMin meet" viewBox="0 -2 30 30" class="support-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#support-icon"></use></svg>
+      <strong>Hey Emmett!</strong>
+      We'd like to get to know you better! Please take a few minutes to complete a <a href="/about_you_survey">short survey</a>.
+</p><button class="button  close-alert" data-close-alert="" title="Close"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12" class="close-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#close-icon"></use></svg></button></div>
+            <div data-featurette="marketing-track-visit" data-page="in-app-home-banner-degree"></div>
+
+  <div class="breadcrumb">
+    <h3 class="breadcrumb-title">Home</h3>
+</div>
+
+
+  <div class="grid-container" data-featurette="dashboard-index">
+
+    <!-- begin navigation -->
+    <div class="grid-100">
+      <div class="control-container with-subnav" data-featurette="control-bar">
+        <ul class="nav" data-featurette="filter-list" id="view">
+          <li>
+            <a class="selected" data-filter-value="">
+              In Progress
+            </a>
+          </li>
+          <li>
+            <a data-filter-value="bookmarks">Bookmarks</a>
+          </li>
+          <li>
+            <a data-filter-value="completed">Completed</a>
+          </li>
+        </ul>
+        <div class="control-container-mobile-nav">
+          <select class="control-select" data-featurette="filter-select" data-path="home" data-filter="view">
+            <option value="">In Progress</option>
+            <option value="bookmarks">Bookmarks</option>
+            <option value="completed">Completed</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <!-- end navigation -->
+
+    <div id="home-pjax">
+
+
+          <div class="grid-100">
+      <div class="mixed-box content-suggestions topic-digital-literacy">
+        <div class="box-header">
+            <div class="track-header">
+              <h4 class="on-track-notice topic-digital-literacy">
+                <a href="/tracks/digital-literacy">
+                  <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="track-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#track-icon"></use></svg>
+                  Digital Literacy 
+                </a>
+              </h4>
+              <a class="button button-secondary" href="/tracks/digital-literacy">View Track</a>
+            </div>
+            <h3>Time to get started!</h3>
+            <p>We recommend you start working on the <a class="activity-title" href="/library/computer-basics">Computer Basics</a> Course. You should complete the first <strong>2 steps:</strong></p>
+        </div>
+        <div class="box-content secondary">
+          <ul class="achievement-steps">
+              <li>
+                <a href="/library/computer-basics/computer-basics/data">
+                    <img src="https://secure.gravatar.com/avatar/49118eb9a32d628ba27cb4a3ecf12512?s=44&amp;d=https%3A%2F%2Fstatic.teamtreehouse.com%2Fassets%2Fcontent%2Fdefault_avatar-d5ee029fdb4c0604d314eb946dbf8e6a.png&amp;r=pg" />
+                  <p>2:28</p>
+                  <strong>Data</strong>
+</a>              </li>
+              <li>
+                <a href="/library/computer-basics/computer-basics/data-2">
+                    <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="quiz-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#quiz-22-icon"></use></svg>
+                  <p>3 questions</p>
+                  <strong>Data</strong>
+</a>              </li>
+          </ul>
+        </div>
+        <div class="box-footer box-actions">
+            <a href="/library/computer-basics/computer-basics/data" class="button primary icon-on-right">
+                Resume <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12" class="right-arrow-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#right-arrow-icon"></use></svg>
+            </a>
+            <span class="suggestion-time-estimate">Time Estimate: <strong>5 mins</strong></span>
+        </div>
+      </div>
+    </div>
+
+
+
+<div class="grid-100 collapsible-container">
+
+  <div class="secondary-heading in-progress-cards">
+    <h2>In Progress</h2>
+    <button class="button small button-secondary view-all view-all-2" data-view-collapsed-text="View all 2" data-view-all-text="View most recent">View all 2</button>
+  </div>
+  <ul class="card-list collapsed">
+    
+
+
+<li class="card course syllabus topic-android home-card" data-location="home" data-featurette="library-card" data-activity="syllabus/2622" id="Syllabus-2622">
+
+  <a class="card-box" href="/library/testing-in-android">
+    <div class="card-progress">
+      <svg class="course-icon card-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#course-icon"></use></svg>
+
+      <ul class="card-stages">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+      </ul>
+
+      <span class="card-estimate">100 min</span>
+    </div>
+
+    <strong class="card-type">Course</strong>
+    <h3 class="card-title">Testing in Android</h3>
+    <p class="card-description">
+      Learn how to use common testing tools available for Android development.
+    </p>
+
+      <p class='current-step hidden'>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="video-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#video-22-icon"></use></svg>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="quiz-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#quiz-22-icon"></use></svg>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="code-challenge-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#code-challenge-22-icon"></use></svg>
+      </p>
+
+      <div class="card-status">
+        <svg class="complete-icon card-status-icon" preserveAspectRatio="xMinYMin meet" viewBox="140 0 140 120"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#complete-icon"></use></svg>
+        <span class="card-status-title"></span>
+      </div>
+</a>
+  <ul class="card-tags tags">
+    <li class="topic-android topic topic"><a data-filter-list-val="topic:android" href="/library/topic:android"><span>Android</span></a></li><li class="difficulty"><span>Intermediate</span></li>
+    <li class="truncated-tags"><span></span><ul></ul></li>
+  </ul>
+
+    <ul class='card-actions hidden'>
+      <li class='card-action resume'>
+        <a class="button primary" href="/library/2622">Start</a>
+      </li>
+        <li class="card-action secondary bookmarkable" data-featurette="bookmarkable">
+          <a class="card-action-button bookmark" data-method="POST" rel="nofollow" href="/library/testing-in-android/pin">
+            <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 16 16" class="star-small-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#star-small-icon"></use></svg><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+</a>          <a class="card-action-button unbookmark" data-method="DELETE" rel="nofollow" href="/library/testing-in-android/unpin">
+            <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 16 16" class="star-small-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#star-small-icon"></use></svg><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+</a>        </li>
+        <li class="card-action secondary card-action-trailer">
+
+          <a href="/library/testing-in-android/trailer" id="course_2622_trailer_trigger" class="card-action-button async-modal-trigger" data-featurette="async-modal-trigger" data-src="/library/testing-in-android/trailer" data-target="card-trailer-modal">
+            <svg data-featurette="async-icon" data-loading-icon="#loading_a71a" data-target="#course_2622_trailer_trigger" preserveAspectRatio="xMinYMin meet" viewBox="0 0 11 12" class="play-icon">
+<path d="M10.5,5.1l-9-5C1.3,0,1.2,0,1,0C0.8,0,0.6,0,0.5,0.1C0.2,0.3,0,0.6,0,1v10c0,0.4,0.2,0.7,0.5,0.9C0.6,12,0.8,12,1,12
+	c0.2,0,0.3,0,0.5-0.1l9-5C10.8,6.7,11,6.3,11,6C11,5.6,10.8,5.3,10.5,5.1z"></path>
+
+</svg><svg id="loading_a71a" style="display:none; " preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+</a>        </li>
+    </ul>
+
+    <div class="queueable-tarp">
+  <div class="confirmation-tarp added">
+    <h4>Added to Bookmarks!</h4>
+    <p>You can now access this anytime from Home.</p>
+    <a href="/home/view:bookmarks" class="view-all">
+      <span>View all Bookmarks</span> <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12" class="right-arrow-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#right-arrow-icon"></use></svg>
+    </a>
+  </div>
+
+  <div class="confirmation-tarp error">
+    <h4>Uh-oh!</h4>
+    <p>Something went wrong when trying to save your request.</p>
+    <a href="#" class="button secondary" data-close>Close</a>
+  </div>
+</div>
+
+</li>
+
+
+<li class="card course syllabus topic-java home-card" data-location="home" data-featurette="library-card" data-activity="syllabus/1722" id="Syllabus-1722">
+
+  <a class="card-box" href="/library/unit-testing-in-java">
+    <div class="card-progress">
+      <svg class="course-icon card-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#course-icon"></use></svg>
+
+      <ul class="card-stages">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+      </ul>
+
+      <span class="card-estimate">2 hours</span>
+    </div>
+
+    <strong class="card-type">Course</strong>
+    <h3 class="card-title">Unit Testing in Java</h3>
+    <p class="card-description">
+      Unit testing is a Java best practice that ensures your code is working how it was intended.  It is a critical habit that you should develop early on in your coding adventures.
+    </p>
+
+      <p class='current-step hidden'>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="video-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#video-22-icon"></use></svg>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="quiz-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#quiz-22-icon"></use></svg>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="code-challenge-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#code-challenge-22-icon"></use></svg>
+      </p>
+
+      <div class="card-status">
+        <svg class="complete-icon card-status-icon" preserveAspectRatio="xMinYMin meet" viewBox="140 0 140 120"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#complete-icon"></use></svg>
+        <span class="card-status-title"></span>
+      </div>
+</a>
+  <ul class="card-tags tags">
+    <li class="topic-java topic topic"><a data-filter-list-val="topic:java" href="/library/topic:java"><span>Java</span></a></li><li class="difficulty"><span>Intermediate</span></li>
+    <li class="truncated-tags"><span></span><ul></ul></li>
+  </ul>
+
+    <ul class='card-actions hidden'>
+      <li class='card-action resume'>
+        <a class="button primary" href="/library/1722">Start</a>
+      </li>
+        <li class="card-action secondary bookmarkable" data-featurette="bookmarkable">
+          <a class="card-action-button bookmark" data-method="POST" rel="nofollow" href="/library/unit-testing-in-java/pin">
+            <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 16 16" class="star-small-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#star-small-icon"></use></svg><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+</a>          <a class="card-action-button unbookmark" data-method="DELETE" rel="nofollow" href="/library/unit-testing-in-java/unpin">
+            <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 16 16" class="star-small-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#star-small-icon"></use></svg><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+</a>        </li>
+        <li class="card-action secondary card-action-trailer">
+
+          <a href="/library/unit-testing-in-java/trailer" id="course_1722_trailer_trigger" class="card-action-button async-modal-trigger" data-featurette="async-modal-trigger" data-src="/library/unit-testing-in-java/trailer" data-target="card-trailer-modal">
+            <svg data-featurette="async-icon" data-loading-icon="#loading_ecb1" data-target="#course_1722_trailer_trigger" preserveAspectRatio="xMinYMin meet" viewBox="0 0 11 12" class="play-icon">
+<path d="M10.5,5.1l-9-5C1.3,0,1.2,0,1,0C0.8,0,0.6,0,0.5,0.1C0.2,0.3,0,0.6,0,1v10c0,0.4,0.2,0.7,0.5,0.9C0.6,12,0.8,12,1,12
+	c0.2,0,0.3,0,0.5-0.1l9-5C10.8,6.7,11,6.3,11,6C11,5.6,10.8,5.3,10.5,5.1z"></path>
+
+</svg><svg id="loading_ecb1" style="display:none; " preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+</a>        </li>
+    </ul>
+
+    <div class="queueable-tarp">
+  <div class="confirmation-tarp added">
+    <h4>Added to Bookmarks!</h4>
+    <p>You can now access this anytime from Home.</p>
+    <a href="/home/view:bookmarks" class="view-all">
+      <span>View all Bookmarks</span> <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12" class="right-arrow-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#right-arrow-icon"></use></svg>
+    </a>
+  </div>
+
+  <div class="confirmation-tarp error">
+    <h4>Uh-oh!</h4>
+    <p>Something went wrong when trying to save your request.</p>
+    <a href="#" class="button secondary" data-close>Close</a>
+  </div>
+</div>
+
+</li>
+  </ul>
+</div>
+
+
+
+
+    </div>
+    <div class="grid-100" data-markup-move-target></div>
+  </div>
+
+</div></main>
+  <footer class="footer" role="contentinfo">
+  <div class="container ">
+      <div class="footer-bonus">
+        <div class="footer-bonus-item" data-featurette="analytics-click-event" data-target="a" data-event-action="Clicked Techdegree Link" data-event-category="link" data-event-label="Source: Footer">
+          <h5 class="footer-bonus-heading">Earn a Techdegree</h5>
+          <a title="Treehouse Techdegrees" class="footer-bonus-link" data-analytics-event="techdegree upsell footer" data-analytics-action="clicked" href="/techdegree"><svg class="certificate-icon footer-bonus-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 56 40"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#certificate-icon"></use></svg></a>
+          <p class="footer-bonus-description">Get the skills you need to launch a career in tech with our structured <a data-analytics-event="techdegree upsell footer" data-analytics-action="clicked" href="/techdegree">certificate program</a>.</p>
+</div>        <div class="footer-bonus-item" data-featurette="analytics-click-event" data-target="a" data-event-action="Clicked Mobile App Link" data-event-category="link" data-event-label="Source: Footer">
+          <h5 class="footer-bonus-heading">Treehouse for Mobile</h5>
+          <a title="Get the iOS App" class="footer-bonus-link" href="/features/ios-app"><svg class="ipad-icon footer-bonus-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 70 50"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#ipad-icon"></use></svg></a>
+          <p class="footer-bonus-description">Learn anytime and anywhere with Treehouse for <a href="/features/ios-app">iOS</a> or <a href="/features/android-app">Android</a>. Download for free today.</p>
+</div>        <div class="footer-bonus-item" data-featurette="analytics-click-event" data-target="a" data-event-action="Clicked Student Perks Link" data-event-category="link" data-event-label="Source: Footer">
+          <h5 class="footer-bonus-heading">Student Perks</h5>
+          <a title="See the student perks." class="footer-bonus-link" href="/perks"><svg class="cash-icon footer-bonus-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 70 50"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#cash-icon"></use></svg></a>
+          <p class="footer-bonus-description">A collection of <a href="/perks">special discounts</a> and exclusive offers available for Treehouse students.</p>
+</div>      </div>
+    <ul class="footer-list">
+        <li class="footer-item footer-social-item">
+          <a title="Twitter" class="footer-social-link" target="_blank" href="http://twitter.com/treehouse"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="twitter-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#twitter-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="Youtube" class="footer-social-link" target="_blank" href="http://youtube.com/user/gotreehouse"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="youtube-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#youtube-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="Facebook" class="footer-social-link" target="_blank" href="http://facebook.com/teamtreehouse"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="facebook-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#facebook-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="Google Plus" class="footer-social-link" target="_blank" href="http://plus.google.com/110278003536476194286/posts"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="google-plus-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#google-plus-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="LinkedIn" class="footer-social-link" target="_blank" href="http://linkedin.com/company/treehouse-island-inc-"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="linked-in-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#linked-in-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="Instagram" class="footer-social-link" target="_blank" href="http://instagram.com/teamtreehouse"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="instagram-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#instagram-icon"></use></svg></a>
+        </li>
+      <li class="footer-item footer-item-text footer-item-blog"><a class="footer-item-text-link" href="http://blog.teamtreehouse.com/">Treehouse Blog</a></li>
+      <li class="footer-item footer-item-text"><a class="footer-item-text-link" href="/about">About Treehouse</a></li>
+      <li class="footer-item footer-item-text"><a rel="nofollow" class="footer-item-text-link" href="/privacy">Privacy Policy</a></li>
+      <li class="footer-item footer-item-text"><a rel="nofollow" class="footer-item-text-link" href="/terms">Terms &amp; Conditions</a></li>
+      <li class="footer-item footer-item-copyright">&copy; 2016 Treehouse Island, Inc.</li>
+    </ul>
+</div></footer>
+
+
+  
+ <!-- yields content from within treehouse-tour paths. Find helper in application.helper -->
+
+<div id="card-trailer-modal" class="modal" data-featurette="course-trailer-modal" data-modal-video-autoplay="true" style="; display: none;">
+</div>
+
+
+<div id="mini-profile-container"></div>
+<div id="tarp" class="modal-tarp" style="display: none;" data-featurette="tarp"></div>
+
+
+
+
+
+    
+
+    <script src="https://static.teamtreehouse.com/assets/application_vendor-8a23e8dce7b84386fe2b962820cd19c9.js"></script>
+    
+    <script src="https://static.teamtreehouse.com/assets/application-b0094b6b7c0f98eb6ca5d4d2f5b92f31.js"></script>
+    
+      <script type="text/javascript">
+    $(function() {
+          $(".demographic-survey-banner .close-alert").on("click", function(e) {
+      $.post("/about_you_survey/optout")
+    })
+
+    });
+  </script>
+
+      <script type="text/javascript">
+    mixpanel.register({visitor_id: 4474967132});
+
+    //  ensure we only send this once per day
+    if ($.cookie("mpVisited") === undefined) {
+      mixpanel.track("Visited Site", {"path":"/home","campaign_id":null},
+      function() { $.cookie("mpVisited", "true", {expires: 1}); });
+        mixpanel.people.increment('daily_visits');
+    }
+
+  </script>
+
+<!-- Segment.io Analytics -->
+<script type="text/javascript">
+  !function(){
+    var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+    analytics.load("DMUKccVYvuuUIVSJlokCJe0YQyGm9qVb");
+
+    analytics.ready(function(){
+      window.analytics.segmentDebug = window.analytics.debug;
+      window.analytics.debug = function(state) {
+        if (state == null) { state = true; }
+        $.cookie("_treehouse_analytics_debug", state);
+        return state;
+      };
+    })
+
+    window.recordedAnalytics = []
+    function recordAnalyticsCall(callType, event, properties, options) {
+      if ($.cookie("_treehouse_analytics_debug") == "true") {
+        window.recordedAnalytics.push([callType, event, properties, options])
+        console.debug("Analytics: ", callType, ("'" + event + "'"), properties, options);
+      }
+    }
+    analytics.on('alias', function(e, p, o) { recordAnalyticsCall('alias', e, p, o)});
+    analytics.on('identify', function(e, p, o) { recordAnalyticsCall('identify', e, p, o)});
+    analytics.on('group', function(e, p, o) { recordAnalyticsCall('group', e, p, o)});
+    analytics.on('track', function(e, p, o) { recordAnalyticsCall('track', e, p, o)});
+    analytics.on('page', function(e, p, o) { recordAnalyticsCall('page', e, p, o)});
+
+    var session_id = "2410a583-afa6-401e-ad31-9dc50b988bb2";
+    var request_id = "55b0ab02-0927-4f1a-afb9-672986c21b73";
+    var visitor_id = $.cookie("vid");
+    var user_id = "7099562";
+    var organization_id = "";
+    var composite_identity = "MjQxMGE1ODMtYWZhNi00MDFlLWFkMzEtOWRjNTBiOTg4YmIyNDQ3NDk2NzEzMjcwOTk1NjI2ODg4MDky";
+
+    function trackIdentity() {
+        window.analytics.identify(user_id, {
+          // Segment Spec
+          id: user_id,
+          name: "Emmett Young",
+          email: "emmett_young92@yahoo.com",
+          username: "emmettyoung2",
+          avatar: "https://secure.gravatar.com/avatar/49118eb9a32d628ba27cb4a3ecf12512?s=400&amp;d=https%3A%2F%2Fstatic.teamtreehouse.com%2Fassets%2Fcontent%2Fdefault_avatar-d5ee029fdb4c0604d314eb946dbf8e6a.png&amp;r=pg",
+          created_at: "2016-10-21T08:41:29Z",
+
+          // Treehouse Domain
+          organization_id: organization_id,
+          subscription_id: "6888092",
+          plan_id: "1272",
+          degree_id: "",
+          track_id: "442",
+          user_timezone: "Asia/Manila",
+          visitor_id: visitor_id,
+          session_id: session_id
+        }, {
+          anonymousId: session_id,
+          Intercom : {
+            user_hash : "3cbec3625f49b1c1c2b9fda3cdacdbd9b827e5490461824bb70933d3bf487262"
+          }
+        });
+
+    }
+
+    function trackPage() {
+      window.analytics.page({
+        visitor_id: visitor_id,
+        session_id: session_id,
+        request_id: request_id
+      }, {
+        anonymousId: session_id
+      });
+    }
+
+    if ($.cookie("_analytics_composite_identity") != composite_identity) {
+      analytics.reset();
+    }
+    $.cookie("_analytics_composite_identity", composite_identity);
+
+    trackIdentity();
+    trackPage();
+
+    $(document).on("pjax:success", function(event, body, status, xhr, options) {
+      request_id = xhr.getResponseHeader("X-Request-Id");
+      trackPage();
+    });
+  }}();
+
+</script>
+
+  </body>
+</html>
+
+====================================================================== 
+::Request::
+GET /home HTTP/1.1
+Host: teamtreehouse.com
+Connection: close
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: https://teamtreehouse.com/signin
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-US,en;q=0.8
+Cookie: __qca=P0-1067227386-1476968740216; notbot=true; intercom-visitor-semaphore-vc705b7s=1; vid=4474967132; _dc_gtm_UA-25670760-9=1; _gat_UA-25670760-9=1; mpVisited=true; intercom-session-vc705b7s=ejFlalNtSllsd05ZL3dBd0tML1h6VWUwMjlPUVJtZGpsaUM2MEFiS3ZUY1pKL1BacFlsd05GSzRtYlo4WFVyNC0tTURhQmJsYU9sdWwxUVVWcUxZR3BNQT09--e2a0221f30d2d49a49c4071eb6a209a64676afcb; IRF_1238=%7Bvisits%3A8%2Cuser%3A%7Btime%3A1476975195738%2Cref%3A%22direct%22%2Cpv%3A87%2Ccap%3A%7B%7D%2Cv%3A%7B%7D%7D%2Cvisit%3A%7Btime%3A1477120326464%2Cref%3A%22direct%22%2Cpv%3A4%2Ccap%3A%7B%7D%2Cv%3A%7B%7D%7D%2Clp%3A%22https%3A%2F%2Fteamtreehouse.com%2Fhome%22%2Cdebug%3A0%2Ca%3A1477120351709%7D; ajs_group_id=null; ajs_user_id=null; ajs_anonymous_id=%222410a583-afa6-401e-ad31-9dc50b988bb2%22; intercom-id=d793c710-05c0-484e-8683-e7e4469bd53c; IRMS_la3944=1477120353899; mp_7b38bdec31b0d42dc60b2c77d946e5ad_mixpanel=%7B%22distinct_id%22%3A%20%22157e23256342a2-0f16d9f082368c-a33316d-e1000-157e2325638359%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22visitor_id%22%3A%204474967132%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%22daily_visits%22%3A%204%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpap%22%3A%20%5B%5D%2C%22%24search_engine%22%3A%20%22google%22%7D; mp_mixpanel__c=4; user_credentials=3038be6ce47b8008cd7aee0773d72657f7eeba8e312ffd24e38163e501a83ae3dfcf8adabb8406bb5ead73e45b8643892ec444a75a4596178788e822b8355fe1%3A%3A7099562%3A%3A2017-01-22T07%3A19%3A21Z; sid=2410a583-afa6-401e-ad31-9dc50b988bb2; _treehouse_session=YlZmYjl0M0dZODNEMTlsNW53SC9nVFRyMDBGMmRUWGhJRkJMWFhWb2FaeTV1QXlidWl0dUN2dFhnQzNQRGxpalRTeE1RK05ob2Fvd1BoYVFQWm1HR01WUENVUXVyZjVpRlMzRmE5aG1UeEU5eXpmQzM5VjBHcXBzYU5ncmlpKytXZzdYVUxwL2tNQUkyNVhCMmFZa0ptU0gzcVRpMWgweUxuRzZqd0RCMHhiVnpEekNyTEhXQ1U5NmpSNWoyTytreTRiSHRMVzY4VjJXYlY1SGdtVTBYYmhiVUJGL2lCRzd0dGpLTzN6NlpKRlRNMlFXRklxT1JwbDRveG9MS1B3bWpidXY0TGdjNmVrUi9zV0gvSnFXTUhsQlJSciswbnBqQUVXMUtzOHQxeHRjL3ErWFpRcnNBSU9wMnhzUTNGNnJMbHkyc1NnRVVxUEdJNFAxcDdFL1k5WEp0V3dhRlBUTkw5QS9YWW5aOUZZdVQweGxnNDBUMVNlYllxY2kvNm1rVmwwbjZweWh6TzkvbUZlSnhNRWpvbGppTytiTXR4MlJDQjVWNkV1Z3Z0QUw5eG82emhvdVVBdDlFOXQ0MDdMdDh5c1VLVmdadW9zYzhBUGpWTkVBQ1d5STZuUkNPYVNXckZ0SjhlWTF1NWwvbFdZY09MVitkcWcvM2dndWFteTNZQUR5SklqU3JNQVFHT0NiSy95YXVFNi91N1g5Wm81VHRCQ29Kc00zb1hSVFBkdFNGOWVTaWlnN0Q0RkNPclVPbHc3d1VoWDV0dUczSU5KaUo2ODRJUUs4b1JkbEUzWmpVQzdXZVRuanpIcFZFUEsvcHd5MUE4Rm41QlM5YzkyZUU0QU0rT1lWY2lXR1JZOVpJUFdhT2c9PS0teU0vRmhRaDlhZHhQY04vMVlFa1ZVdz09--0f6e6f4e8431809d62beaef24725f7a62ac600d0; _analytics_composite_identity=MjQxMGE1ODMtYWZhNi00MDFlLWFkMzEtOWRjNTBiOTg4YmIyNDQ3NDk2NzEzMjcwOTk1NjI2ODg4MDky; _ga=GA1.2.130153331.1476968733
+
+::Response::
+HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Sat, 22 Oct 2016 07:20:55 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Vary: Accept-Encoding
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Vary: X-PJAX
+ETag: W/"f79937270c62fd1a90e8034bba3bc9c3"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: sid=2410a583-afa6-401e-ad31-9dc50b988bb2; path=/; expires=Sat, 22 Oct 2016 07:50:55 -0000; secure
+Set-Cookie: _treehouse_session=VkppL09KenkySkpHcmJXMUxrT2VPT2pHbmwvZ1RQeGlrT1IyRHFRd0RnZ25LN1dlZzBiUkFDYUNJUWJWVHBUeW5QdFZlL0ErMjFXeEFYWDkybjZYVUEzUCtvUTFKLytNblIveHI2aHlHQ3U3MThoUTRpYjMvYW9yVWhaK2FxYVFCaUZiUkNCdXRDUnhqRmFUcFpJRHltcVVadE84emcrRFZNL2QzcSt4SFFBbXBsb2xlN1FxU1NCZWNCSFBtVnRtaS9VUjBCSFNHTXJzWkRJNHZPR2Z4aU1Ra0dpWTlST1RueWVEYlFIcXVkYTltQnhpMmVuMmtjMStNbjByMHVLV0QwZE1MYXVxbUY4VDYxT3c2MitzdUhjTGswdUVGczdYamhKOU9vQ1h4T3NrdDJiRnBVR1dXYVN2UmE3TS83QUkzM2VqUzFibTNidzFjK2piODBiMXpzOXhOSUF0RHEzUG5RNERCOElMNHZxNEpRa3ZDN2dYRFlKWVpRTitZb1NkTzlsWjJ3VVdDcnR4UVRCSXA0eENEb2M5MWJzdmZ4b1pFWUMxVzBHTE5uWlZLYlZBRTJBUktSUEs0YTc1K05lWWJwSkZKbXRraUpoZC9pdVJFZFhVS0xjcVhuV2pxV2hVZkoxblg1VGJ0VGJ3YUJiS1p5M2VEV2d0cExEbGtkcmtlVERxbnJreHBXenVHRjI0K1dUMHQyYXFGVytXdk5TN21ralNFNDdmT1JJSGREWmdCcTFNbm5xeS9tL2owSjZuaW9NQWVJOXhVVFFMcUlPVk83R2ZjT0w0eFJobGY2dFlvdTJTNXQ5S1Z6VUhsa2hDV3dvQjZpMHJieVpBbXdIVXpSOUxxZEZHTTdSRGZyeFU3RFhGOWc9PS0teGp6QnRuT2N5RktjUGtMYnU5RVN2Zz09--62f83d968254918853cfcfdbd70d08a90653ad65; path=/; secure; HttpOnly
+X-Request-Id: e58cf6dc-fa0d-4cdd-b6fb-e77cddab9fe2
+X-Runtime: 0.409224
+X-Served-By: app2.prod.wdc04
+Content-Length: 55647
+
+<!DOCTYPE html>
+<html lang="en" class="application-layout dashboard-index dashboard-controller index-action logged-in chrome webkit windows" id="layout" data-featurette="application-layout"  >
+  <head>
+    <title>Treehouse | Home</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d98036d1cc","applicationID":"1824378","transactionName":"cQ5eRRQNCQ8BFhZcVkEJUl4HEAFMDQpdXU8=","queueTime":2,"applicationTime":407,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwIBVldWGwIIVlVRAAk="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="google-site-verification" content="4Ga-viQvIZUFNQXu323xpp_24RDlLooxwlpnXhinjPA" />
+    <meta name="msvalidate.01" content="F0716E70B7DD3B8C892B48891CA4B541" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="xM9oPc2tkDdC1rjCd1+cXj3pashbOPkBHvyDqlbynxpV2Ii6JVw7sxDrPeT8HT39SsH4DOKmpunITct3mG37kQ==" />
+
+
+
+
+    <script>
+//<![CDATA[
+window.appData = '{\"controller_name\":\"dashboard\",\"action_name\":\"index\",\"app_version\":\"5c77a9aa2bf211b84bf04bdad932776fd9d108f0\",\"user\":{\"id\":7099562,\"name\":\"Emmett Young\",\"profile_name\":\"emmettyoung2\",\"cache_marks\":{\"notifications\":1477039648,\"progress\":1477047628,\"bookmarks\":1477040052,\"queue\":1477040199}}}'
+//]]>
+</script>
+
+    <link rel="stylesheet" media="screen" href="https://static.teamtreehouse.com/assets/vendor-85aafb4bb1a3e2aecda6887faf893dce.css" />
+<link rel="stylesheet" media="screen" href="https://static.teamtreehouse.com/assets/application-8b26e4fb153622d177b9fe92912c5f93.css" />
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7055252/762022/css/fonts.css" />
+    
+
+    <style media="print">
+      header, footer, .graph, .nav, svg {
+        display: none
+      }
+    </style>
+
+    <link rel="shortcut icon" href="/assets/favicon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://static.teamtreehouse.com/assets/apple-touch-icon-60x60-precomposed-0c535bd2d450d0d63674d42e0211fa06.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://static.teamtreehouse.com/assets/apple-touch-icon-76x76-precomposed-70428f11bacc8386f67bd0d9a2bb6f3d.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://static.teamtreehouse.com/assets/apple-touch-icon-120x120-precomposed-f57b728bdb270f61fd44beb7977a1061.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://static.teamtreehouse.com/assets/apple-touch-icon-152x152-precomposed-83e1f23c91e515a59bf5dbf3ff578ccd.png" />
+
+    
+
+
+
+      <!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+  for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+  mixpanel.init("7b38bdec31b0d42dc60b2c77d946e5ad");</script><!-- end Mixpanel -->
+
+    
+
+    
+
+    <script type="text/javascript">
+(function() {
+  var s = document.createElement('script'),
+  e = document.getElementsByTagName('script')[0];
+  s.src = '//d3cxv97fi8q177.cloudfront.net/foundation-A187849-72ad-44c6-83bc-3d4f458b85e71.min.js';s.type = 'text/javascript';s.async = true;s.id="irfOuterTag";
+  e.parentNode.insertBefore(s, e);
+
+})();
+</script>
+<noscript><img src="//tl.r7ls.net/unscripted/187849" width="1" height="1"></noscript>
+
+  </head>
+  <body  class="windows chrome webkit ">
+    <!-- Data Layer -->
+<script>
+  dataLayer = [{"loggedIn":true,"userId":7099562,"userEmail":"emmett_young92@yahoo.com","userDisplayName":"Emmett Young","accountState":"active","techdegreeStudent":false}];
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PZ55S7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PZ55S7');</script>
+<!-- End Google Tag Manager -->
+
+
+
+  <header class="header" role="banner" data-header>
+    <nav class="header-nav container" role="navigation" data-nav>
+      <button class="hamburger-button hamburger-button-inverse" aria-label="Navigation Menu" data-hamburger-button>
+  <span class="hamburger"></span>
+</button>
+
+      <ul class="header-nav-list header-nav-item-profile-points-size-2">
+        <li class="header-nav-item  header-nav-item-primary header-nav-item-logo ">
+          <h6 class="header-nav-item-logo-container">
+            <a class="header-nav-link header-nav-item-logo-link" aria_label="Treehouse Home" data-analytics-link="Treehouse Logo" data-analytics-event="application nav link" data-analytics-path="/home" data-analytics-action="clicked" href="/home">
+              <svg class="logo-icon header-nav-item-logo-icon" alt="Treehouse" preserveAspectRatio="xMinYMin meet" viewBox="0 0 30 32"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#logo-icon"></use></svg>
+</a>          </h6>
+</li>
+
+          <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-techdegrees ">
+            <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Techdegree" data-analytics-path="/techdegree" data-analytics-action="clicked" href="/techdegree">Techdegree</a>
+</li>
+        <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-tracks ">
+          <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Tracks" data-analytics-path="/tracks" data-analytics-action="clicked" href="/tracks">Tracks</a>
+</li>
+        <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-library ">
+          <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Library" data-analytics-path="/library" data-analytics-action="clicked" href="/library">Library</a>
+</li>
+        <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-community ">
+          <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Community" data-analytics-path="/community" data-analytics-action="clicked" href="/community">Community</a>
+</li>
+        <li class="header-nav-item header-nav-item-tablet header-nav-item-primary header-nav-item-support ">
+          <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Support" data-analytics-path="/support" data-analytics-action="clicked" href="/support">Support</a>
+</li>
+
+          <li class="header-nav-item header-nav-item-tablet header-nav-item-secondary header-nav-item-workspaces ">
+            <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Workspaces" data-analytics-path="/workspaces" data-analytics-action="clicked" href="/workspaces">Workspaces</a>
+</li>
+          <li class="header-nav-item header-nav-item-mobile header-nav-item-secondary header-nav-item-profile " data-nav-item="profile">
+            <a data-nav-link-profile="" data-dropdown-toggle="profile" data-analytics-link="Profile" data-analytics-action="clicked:internal" data-analytics-event="application nav link" data-analytics-path="/emmettyoung2" class="header-nav-link " href="/emmettyoung2">
+              <div class="header-nav-item-profile-avatar avatar-deep-blue-bg  avatar avatar-small" id="avatar-215aea">
+  
+  <div class="points-donut chart avatar-points" data-animate-points="true" data-initialize-later="null" data-featurette="points-chart" data-width="36" data-height="36" data-donut-width="9px" data-points="{&quot;html&quot;:0,&quot;css&quot;:0,&quot;design&quot;:0,&quot;javascript&quot;:0,&quot;ruby&quot;:0,&quot;php&quot;:0,&quot;wordpress&quot;:0,&quot;ios&quot;:0,&quot;android&quot;:5,&quot;development-tools&quot;:0,&quot;business&quot;:0,&quot;python&quot;:0,&quot;java&quot;:3,&quot;digital-literacy&quot;:0,&quot;game-development&quot;:0,&quot;csharp&quot;:0,&quot;databases&quot;:0}" data-points-total="38" data-padding="1"></div>
+  <div class="avatar-container">
+    <img alt="Emmett Young" class="avatar-image" src="https://secure.gravatar.com/avatar/49118eb9a32d628ba27cb4a3ecf12512?s=72&amp;d=https%3A%2F%2Fstatic.teamtreehouse.com%2Fassets%2Fcontent%2Fdefault_avatar-d5ee029fdb4c0604d314eb946dbf8e6a.png&amp;r=pg" />
+  </div>
+  
+  
+  
+</div>
+<span class="header-nav-item-profile-points">38</span>
+<span class="header-nav-item-profile-text">View Profile</span>
+
+              <svg class="chevron-icon header-nav-item-profile-chevron" preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 7.5"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#chevron-icon"></use></svg>
+</a>            <div class="header-nav-item-profile-dropdown dropdown dropdown-right">
+  <h4 class="dropdown-title">
+    <a href="/emmettyoung2" class="header-nav-item-profile-dropdown-title-link">
+      <strong class="header-nav-item-profile-dropdown-title-name">Emmett Young</strong>
+      <span class="header-nav-item-profile-dropdown-title-label">View Profile</span>
+    </a>
+  </h4>
+  <ul>
+    <li><a href="/account">Account Settings</a></li>
+      <li><a href="/account/referrals">Referral Discounts</a></li>
+  </ul>
+  <a class="dropdown-secondary" href="/logout">Sign Out</a>
+</div>
+
+</li>
+          <li class="header-nav-item header-nav-item-mobile header-nav-item-secondary header-nav-item-notifications " data-featurette="notifications" data-channel="th-production-9cbb8059f4458f63fa2b8f4dcf0e0f55" data-nav-item="notifications">
+            <a data-notifications-link="" data-dropdown-toggle="notifications" data-analytics-link="Notifications" data-analytics-action="clicked:internal" data-analytics-event="application nav link" data-analytics-path="/notifications" class="header-nav-link " href="/notifications">
+              <svg class="notifications-icon header-nav-item-notifications-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#notifications-icon"></use></svg>
+              <span class="header-nav-item-notifications-count" data-featurette="notifications-count"></span>
+              <span class="header-nav-item-notifications-text">Notifications</span>
+</a>            <div class="header-nav-item-notifications-dropdown dropdown dropdown-right notifications notification-dropdown" data-notification-dropdown>
+  <h4 class="dropdown-title"><a href="/notifications">Notifications</a></h4>
+  <div class="loading">
+    <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+  </div>
+</div>
+
+</li>
+          <li class="header-nav-item header-nav-item-mobile header-nav-item-secondary header-nav-item-settings ">
+            <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Settings" data-analytics-path="/account" data-analytics-action="clicked" href="/account">Settings</a>
+</li>
+          <li class="header-nav-item header-nav-item-mobile header-nav-item-secondary header-nav-item-sign-out ">
+            <a class="header-nav-link " data-analytics-event="application nav link" data-analytics-link="Sign Out" data-analytics-path="/logout" data-analytics-action="clicked" href="/logout">Sign Out</a>
+</li>      </ul>
+      
+    </nav>
+  </header>
+
+  <main class="content " role="main" data-content="">
+      <div class="container ">
+        
+        
+        
+
+
+
+
+            
+<div class="marketing-banner-techdegree marketing-banner-centered-inverse" data-featurette="degree-marketing-banner" data-analytics-event="techdegree banner" data-analytics-action="viewed">
+  <h3 class="marketing-banner-heading">
+    Up your game with a Techdegree
+  </h3>
+
+  <p class="marketing-banner-paragraph">
+    Take your learning to the next level! The Techdegree program will push you to learn all you need to start a new career as a developer. Build a professional portfolio of peer-reviewed projects, complete a final proctored exam, and earn your certification for just $199/month. Start with a Free Trial today!
+  </p>
+
+  <a class="button marketing-banner-action" data-analytics-event="techdegree banner" data-analytics-action="clicked" href="/degree_memberships/redirect_to_get_a_techdegree">Learn More</a>
+  <a class="marketing-banner-close" data-close-marketing-banner data-analytics-event="techdegree banner" data-analytics-action="closed"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12" class="close-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#close-icon"></use></svg></a>
+</div>
+
+    <div class="alert-banner info demographic-survey-banner" data-featurette="alert"><p>
+      <svg preserveAspectRatio="xMinYMin meet" viewBox="0 -2 30 30" class="support-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#support-icon"></use></svg>
+      <strong>Hey Emmett!</strong>
+      We'd like to get to know you better! Please take a few minutes to complete a <a href="/about_you_survey">short survey</a>.
+</p><button class="button  close-alert" data-close-alert="" title="Close"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12" class="close-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#close-icon"></use></svg></button></div>
+            <div data-featurette="marketing-track-visit" data-page="in-app-home-banner-degree"></div>
+
+  <div class="breadcrumb">
+    <h3 class="breadcrumb-title">Home</h3>
+</div>
+
+
+  <div class="grid-container" data-featurette="dashboard-index">
+
+    <!-- begin navigation -->
+    <div class="grid-100">
+      <div class="control-container with-subnav" data-featurette="control-bar">
+        <ul class="nav" data-featurette="filter-list" id="view">
+          <li>
+            <a class="selected" data-filter-value="">
+              In Progress
+            </a>
+          </li>
+          <li>
+            <a data-filter-value="bookmarks">Bookmarks</a>
+          </li>
+          <li>
+            <a data-filter-value="completed">Completed</a>
+          </li>
+        </ul>
+        <div class="control-container-mobile-nav">
+          <select class="control-select" data-featurette="filter-select" data-path="home" data-filter="view">
+            <option value="">In Progress</option>
+            <option value="bookmarks">Bookmarks</option>
+            <option value="completed">Completed</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <!-- end navigation -->
+
+    <div id="home-pjax">
+
+
+          <div class="grid-100">
+      <div class="mixed-box content-suggestions topic-digital-literacy">
+        <div class="box-header">
+            <div class="track-header">
+              <h4 class="on-track-notice topic-digital-literacy">
+                <a href="/tracks/digital-literacy">
+                  <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="track-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#track-icon"></use></svg>
+                  Digital Literacy 
+                </a>
+              </h4>
+              <a class="button button-secondary" href="/tracks/digital-literacy">View Track</a>
+            </div>
+            <h3>Time to get started!</h3>
+            <p>We recommend you start working on the <a class="activity-title" href="/library/computer-basics">Computer Basics</a> Course. You should complete the first <strong>2 steps:</strong></p>
+        </div>
+        <div class="box-content secondary">
+          <ul class="achievement-steps">
+              <li>
+                <a href="/library/computer-basics/computer-basics/data">
+                    <img src="https://secure.gravatar.com/avatar/49118eb9a32d628ba27cb4a3ecf12512?s=44&amp;d=https%3A%2F%2Fstatic.teamtreehouse.com%2Fassets%2Fcontent%2Fdefault_avatar-d5ee029fdb4c0604d314eb946dbf8e6a.png&amp;r=pg" />
+                  <p>2:28</p>
+                  <strong>Data</strong>
+</a>              </li>
+              <li>
+                <a href="/library/computer-basics/computer-basics/data-2">
+                    <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="quiz-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#quiz-22-icon"></use></svg>
+                  <p>3 questions</p>
+                  <strong>Data</strong>
+</a>              </li>
+          </ul>
+        </div>
+        <div class="box-footer box-actions">
+            <a href="/library/computer-basics/computer-basics/data" class="button primary icon-on-right">
+                Resume <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12" class="right-arrow-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#right-arrow-icon"></use></svg>
+            </a>
+            <span class="suggestion-time-estimate">Time Estimate: <strong>5 mins</strong></span>
+        </div>
+      </div>
+    </div>
+
+
+
+<div class="grid-100 collapsible-container">
+
+  <div class="secondary-heading in-progress-cards">
+    <h2>In Progress</h2>
+    <button class="button small button-secondary view-all view-all-2" data-view-collapsed-text="View all 2" data-view-all-text="View most recent">View all 2</button>
+  </div>
+  <ul class="card-list collapsed">
+    
+
+
+<li class="card course syllabus topic-android home-card" data-location="home" data-featurette="library-card" data-activity="syllabus/2622" id="Syllabus-2622">
+
+  <a class="card-box" href="/library/testing-in-android">
+    <div class="card-progress">
+      <svg class="course-icon card-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#course-icon"></use></svg>
+
+      <ul class="card-stages">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+      </ul>
+
+      <span class="card-estimate">100 min</span>
+    </div>
+
+    <strong class="card-type">Course</strong>
+    <h3 class="card-title">Testing in Android</h3>
+    <p class="card-description">
+      Learn how to use common testing tools available for Android development.
+    </p>
+
+      <p class='current-step hidden'>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="video-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#video-22-icon"></use></svg>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="quiz-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#quiz-22-icon"></use></svg>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="code-challenge-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#code-challenge-22-icon"></use></svg>
+      </p>
+
+      <div class="card-status">
+        <svg class="complete-icon card-status-icon" preserveAspectRatio="xMinYMin meet" viewBox="140 0 140 120"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#complete-icon"></use></svg>
+        <span class="card-status-title"></span>
+      </div>
+</a>
+  <ul class="card-tags tags">
+    <li class="topic-android topic topic"><a data-filter-list-val="topic:android" href="/library/topic:android"><span>Android</span></a></li><li class="difficulty"><span>Intermediate</span></li>
+    <li class="truncated-tags"><span></span><ul></ul></li>
+  </ul>
+
+    <ul class='card-actions hidden'>
+      <li class='card-action resume'>
+        <a class="button primary" href="/library/2622">Start</a>
+      </li>
+        <li class="card-action secondary bookmarkable" data-featurette="bookmarkable">
+          <a class="card-action-button bookmark" data-method="POST" rel="nofollow" href="/library/testing-in-android/pin">
+            <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 16 16" class="star-small-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#star-small-icon"></use></svg><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+</a>          <a class="card-action-button unbookmark" data-method="DELETE" rel="nofollow" href="/library/testing-in-android/unpin">
+            <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 16 16" class="star-small-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#star-small-icon"></use></svg><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+</a>        </li>
+        <li class="card-action secondary card-action-trailer">
+
+          <a href="/library/testing-in-android/trailer" id="course_2622_trailer_trigger" class="card-action-button async-modal-trigger" data-featurette="async-modal-trigger" data-src="/library/testing-in-android/trailer" data-target="card-trailer-modal">
+            <svg data-featurette="async-icon" data-loading-icon="#loading_a71a" data-target="#course_2622_trailer_trigger" preserveAspectRatio="xMinYMin meet" viewBox="0 0 11 12" class="play-icon">
+<path d="M10.5,5.1l-9-5C1.3,0,1.2,0,1,0C0.8,0,0.6,0,0.5,0.1C0.2,0.3,0,0.6,0,1v10c0,0.4,0.2,0.7,0.5,0.9C0.6,12,0.8,12,1,12
+	c0.2,0,0.3,0,0.5-0.1l9-5C10.8,6.7,11,6.3,11,6C11,5.6,10.8,5.3,10.5,5.1z"></path>
+
+</svg><svg id="loading_a71a" style="display:none; " preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+</a>        </li>
+    </ul>
+
+    <div class="queueable-tarp">
+  <div class="confirmation-tarp added">
+    <h4>Added to Bookmarks!</h4>
+    <p>You can now access this anytime from Home.</p>
+    <a href="/home/view:bookmarks" class="view-all">
+      <span>View all Bookmarks</span> <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12" class="right-arrow-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#right-arrow-icon"></use></svg>
+    </a>
+  </div>
+
+  <div class="confirmation-tarp error">
+    <h4>Uh-oh!</h4>
+    <p>Something went wrong when trying to save your request.</p>
+    <a href="#" class="button secondary" data-close>Close</a>
+  </div>
+</div>
+
+</li>
+
+
+<li class="card course syllabus topic-java home-card" data-location="home" data-featurette="library-card" data-activity="syllabus/1722" id="Syllabus-1722">
+
+  <a class="card-box" href="/library/unit-testing-in-java">
+    <div class="card-progress">
+      <svg class="course-icon card-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#course-icon"></use></svg>
+
+      <ul class="card-stages">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+      </ul>
+
+      <span class="card-estimate">2 hours</span>
+    </div>
+
+    <strong class="card-type">Course</strong>
+    <h3 class="card-title">Unit Testing in Java</h3>
+    <p class="card-description">
+      Unit testing is a Java best practice that ensures your code is working how it was intended.  It is a critical habit that you should develop early on in your coding adventures.
+    </p>
+
+      <p class='current-step hidden'>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="video-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#video-22-icon"></use></svg>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="quiz-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#quiz-22-icon"></use></svg>
+        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 22 22" class="code-challenge-22-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#code-challenge-22-icon"></use></svg>
+      </p>
+
+      <div class="card-status">
+        <svg class="complete-icon card-status-icon" preserveAspectRatio="xMinYMin meet" viewBox="140 0 140 120"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#complete-icon"></use></svg>
+        <span class="card-status-title"></span>
+      </div>
+</a>
+  <ul class="card-tags tags">
+    <li class="topic-java topic topic"><a data-filter-list-val="topic:java" href="/library/topic:java"><span>Java</span></a></li><li class="difficulty"><span>Intermediate</span></li>
+    <li class="truncated-tags"><span></span><ul></ul></li>
+  </ul>
+
+    <ul class='card-actions hidden'>
+      <li class='card-action resume'>
+        <a class="button primary" href="/library/1722">Start</a>
+      </li>
+        <li class="card-action secondary bookmarkable" data-featurette="bookmarkable">
+          <a class="card-action-button bookmark" data-method="POST" rel="nofollow" href="/library/unit-testing-in-java/pin">
+            <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 16 16" class="star-small-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#star-small-icon"></use></svg><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+</a>          <a class="card-action-button unbookmark" data-method="DELETE" rel="nofollow" href="/library/unit-testing-in-java/unpin">
+            <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 16 16" class="star-small-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#star-small-icon"></use></svg><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+</a>        </li>
+        <li class="card-action secondary card-action-trailer">
+
+          <a href="/library/unit-testing-in-java/trailer" id="course_1722_trailer_trigger" class="card-action-button async-modal-trigger" data-featurette="async-modal-trigger" data-src="/library/unit-testing-in-java/trailer" data-target="card-trailer-modal">
+            <svg data-featurette="async-icon" data-loading-icon="#loading_ecb1" data-target="#course_1722_trailer_trigger" preserveAspectRatio="xMinYMin meet" viewBox="0 0 11 12" class="play-icon">
+<path d="M10.5,5.1l-9-5C1.3,0,1.2,0,1,0C0.8,0,0.6,0,0.5,0.1C0.2,0.3,0,0.6,0,1v10c0,0.4,0.2,0.7,0.5,0.9C0.6,12,0.8,12,1,12
+	c0.2,0,0.3,0,0.5-0.1l9-5C10.8,6.7,11,6.3,11,6C11,5.6,10.8,5.3,10.5,5.1z"></path>
+
+</svg><svg id="loading_ecb1" style="display:none; " preserveAspectRatio="xMinYMin meet" viewBox="0 0 18 18" class="loading-icon">
+	<path class="loading-circle" d="M9,4c2.76,0,5,2.24,5,5s-2.24,5-5,5s-5-2.24-5-5S6.24,4,9,4 M9,0C4.03,0,0,4.03,0,9s4.03,9,9,9s9-4.03,9-9S13.97,0,9,0L9,0z"></path>
+	<path class="loading-quarter-circle" d="M16,11c-1.1,0-2-0.9-2-2c0-2.76-2.24-5-5-5C7.9,4,7,3.1,7,2s0.9-2,2-2c4.96,0,9,4.04,9,9C18,10.1,17.1,11,16,11z"></path>
+</svg>
+</a>        </li>
+    </ul>
+
+    <div class="queueable-tarp">
+  <div class="confirmation-tarp added">
+    <h4>Added to Bookmarks!</h4>
+    <p>You can now access this anytime from Home.</p>
+    <a href="/home/view:bookmarks" class="view-all">
+      <span>View all Bookmarks</span> <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12" class="right-arrow-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#right-arrow-icon"></use></svg>
+    </a>
+  </div>
+
+  <div class="confirmation-tarp error">
+    <h4>Uh-oh!</h4>
+    <p>Something went wrong when trying to save your request.</p>
+    <a href="#" class="button secondary" data-close>Close</a>
+  </div>
+</div>
+
+</li>
+  </ul>
+</div>
+
+
+
+
+    </div>
+    <div class="grid-100" data-markup-move-target></div>
+  </div>
+
+</div></main>
+  <footer class="footer" role="contentinfo">
+  <div class="container ">
+      <div class="footer-bonus">
+        <div class="footer-bonus-item" data-featurette="analytics-click-event" data-target="a" data-event-action="Clicked Techdegree Link" data-event-category="link" data-event-label="Source: Footer">
+          <h5 class="footer-bonus-heading">Earn a Techdegree</h5>
+          <a title="Treehouse Techdegrees" class="footer-bonus-link" data-analytics-event="techdegree upsell footer" data-analytics-action="clicked" href="/techdegree"><svg class="certificate-icon footer-bonus-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 56 40"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#certificate-icon"></use></svg></a>
+          <p class="footer-bonus-description">Get the skills you need to launch a career in tech with our structured <a data-analytics-event="techdegree upsell footer" data-analytics-action="clicked" href="/techdegree">certificate program</a>.</p>
+</div>        <div class="footer-bonus-item" data-featurette="analytics-click-event" data-target="a" data-event-action="Clicked Mobile App Link" data-event-category="link" data-event-label="Source: Footer">
+          <h5 class="footer-bonus-heading">Treehouse for Mobile</h5>
+          <a title="Get the iOS App" class="footer-bonus-link" href="/features/ios-app"><svg class="ipad-icon footer-bonus-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 70 50"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#ipad-icon"></use></svg></a>
+          <p class="footer-bonus-description">Learn anytime and anywhere with Treehouse for <a href="/features/ios-app">iOS</a> or <a href="/features/android-app">Android</a>. Download for free today.</p>
+</div>        <div class="footer-bonus-item" data-featurette="analytics-click-event" data-target="a" data-event-action="Clicked Student Perks Link" data-event-category="link" data-event-label="Source: Footer">
+          <h5 class="footer-bonus-heading">Student Perks</h5>
+          <a title="See the student perks." class="footer-bonus-link" href="/perks"><svg class="cash-icon footer-bonus-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 70 50"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#cash-icon"></use></svg></a>
+          <p class="footer-bonus-description">A collection of <a href="/perks">special discounts</a> and exclusive offers available for Treehouse students.</p>
+</div>      </div>
+    <ul class="footer-list">
+        <li class="footer-item footer-social-item">
+          <a title="Twitter" class="footer-social-link" target="_blank" href="http://twitter.com/treehouse"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="twitter-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#twitter-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="Youtube" class="footer-social-link" target="_blank" href="http://youtube.com/user/gotreehouse"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="youtube-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#youtube-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="Facebook" class="footer-social-link" target="_blank" href="http://facebook.com/teamtreehouse"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="facebook-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#facebook-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="Google Plus" class="footer-social-link" target="_blank" href="http://plus.google.com/110278003536476194286/posts"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="google-plus-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#google-plus-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="LinkedIn" class="footer-social-link" target="_blank" href="http://linkedin.com/company/treehouse-island-inc-"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="linked-in-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#linked-in-icon"></use></svg></a>
+        </li>
+        <li class="footer-item footer-social-item">
+          <a title="Instagram" class="footer-social-link" target="_blank" href="http://instagram.com/teamtreehouse"><svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="instagram-icon"><use xlink:href="/assets/icons-303ff9abe39ab70f0af5df740bfd6005.svg#instagram-icon"></use></svg></a>
+        </li>
+      <li class="footer-item footer-item-text footer-item-blog"><a class="footer-item-text-link" href="http://blog.teamtreehouse.com/">Treehouse Blog</a></li>
+      <li class="footer-item footer-item-text"><a class="footer-item-text-link" href="/about">About Treehouse</a></li>
+      <li class="footer-item footer-item-text"><a rel="nofollow" class="footer-item-text-link" href="/privacy">Privacy Policy</a></li>
+      <li class="footer-item footer-item-text"><a rel="nofollow" class="footer-item-text-link" href="/terms">Terms &amp; Conditions</a></li>
+      <li class="footer-item footer-item-copyright">&copy; 2016 Treehouse Island, Inc.</li>
+    </ul>
+</div></footer>
+
+
+  
+ <!-- yields content from within treehouse-tour paths. Find helper in application.helper -->
+
+<div id="card-trailer-modal" class="modal" data-featurette="course-trailer-modal" data-modal-video-autoplay="true" style="; display: none;">
+</div>
+
+
+<div id="mini-profile-container"></div>
+<div id="tarp" class="modal-tarp" style="display: none;" data-featurette="tarp"></div>
+
+
+
+
+
+    
+
+    <script src="https://static.teamtreehouse.com/assets/application_vendor-8a23e8dce7b84386fe2b962820cd19c9.js"></script>
+    
+    <script src="https://static.teamtreehouse.com/assets/application-b0094b6b7c0f98eb6ca5d4d2f5b92f31.js"></script>
+    
+      <script type="text/javascript">
+    $(function() {
+          $(".demographic-survey-banner .close-alert").on("click", function(e) {
+      $.post("/about_you_survey/optout")
+    })
+
+    });
+  </script>
+
+      <script type="text/javascript">
+    mixpanel.register({visitor_id: 4474967132});
+
+    //  ensure we only send this once per day
+    if ($.cookie("mpVisited") === undefined) {
+      mixpanel.track("Visited Site", {"path":"/home","campaign_id":null},
+      function() { $.cookie("mpVisited", "true", {expires: 1}); });
+        mixpanel.people.increment('daily_visits');
+    }
+
+  </script>
+
+<!-- Segment.io Analytics -->
+<script type="text/javascript">
+  !function(){
+    var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+    analytics.load("DMUKccVYvuuUIVSJlokCJe0YQyGm9qVb");
+
+    analytics.ready(function(){
+      window.analytics.segmentDebug = window.analytics.debug;
+      window.analytics.debug = function(state) {
+        if (state == null) { state = true; }
+        $.cookie("_treehouse_analytics_debug", state);
+        return state;
+      };
+    })
+
+    window.recordedAnalytics = []
+    function recordAnalyticsCall(callType, event, properties, options) {
+      if ($.cookie("_treehouse_analytics_debug") == "true") {
+        window.recordedAnalytics.push([callType, event, properties, options])
+        console.debug("Analytics: ", callType, ("'" + event + "'"), properties, options);
+      }
+    }
+    analytics.on('alias', function(e, p, o) { recordAnalyticsCall('alias', e, p, o)});
+    analytics.on('identify', function(e, p, o) { recordAnalyticsCall('identify', e, p, o)});
+    analytics.on('group', function(e, p, o) { recordAnalyticsCall('group', e, p, o)});
+    analytics.on('track', function(e, p, o) { recordAnalyticsCall('track', e, p, o)});
+    analytics.on('page', function(e, p, o) { recordAnalyticsCall('page', e, p, o)});
+
+    var session_id = "2410a583-afa6-401e-ad31-9dc50b988bb2";
+    var request_id = "e58cf6dc-fa0d-4cdd-b6fb-e77cddab9fe2";
+    var visitor_id = $.cookie("vid");
+    var user_id = "7099562";
+    var organization_id = "";
+    var composite_identity = "MjQxMGE1ODMtYWZhNi00MDFlLWFkMzEtOWRjNTBiOTg4YmIyNDQ3NDk2NzEzMjcwOTk1NjI2ODg4MDky";
+
+    function trackIdentity() {
+        window.analytics.identify(user_id, {
+          // Segment Spec
+          id: user_id,
+          name: "Emmett Young",
+          email: "emmett_young92@yahoo.com",
+          username: "emmettyoung2",
+          avatar: "https://secure.gravatar.com/avatar/49118eb9a32d628ba27cb4a3ecf12512?s=400&amp;d=https%3A%2F%2Fstatic.teamtreehouse.com%2Fassets%2Fcontent%2Fdefault_avatar-d5ee029fdb4c0604d314eb946dbf8e6a.png&amp;r=pg",
+          created_at: "2016-10-21T08:41:29Z",
+
+          // Treehouse Domain
+          organization_id: organization_id,
+          subscription_id: "6888092",
+          plan_id: "1272",
+          degree_id: "",
+          track_id: "442",
+          user_timezone: "Asia/Manila",
+          visitor_id: visitor_id,
+          session_id: session_id
+        }, {
+          anonymousId: session_id,
+          Intercom : {
+            user_hash : "3cbec3625f49b1c1c2b9fda3cdacdbd9b827e5490461824bb70933d3bf487262"
+          }
+        });
+
+    }
+
+    function trackPage() {
+      window.analytics.page({
+        visitor_id: visitor_id,
+        session_id: session_id,
+        request_id: request_id
+      }, {
+        anonymousId: session_id
+      });
+    }
+
+    if ($.cookie("_analytics_composite_identity") != composite_identity) {
+      analytics.reset();
+    }
+    $.cookie("_analytics_composite_identity", composite_identity);
+
+    trackIdentity();
+    trackPage();
+
+    $(document).on("pjax:success", function(event, body, status, xhr, options) {
+      request_id = xhr.getResponseHeader("X-Request-Id");
+      trackPage();
+    });
+  }}();
+
+</script>
+
+  </body>
+</html>
+
